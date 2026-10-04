@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: WX5NtyivVnnKEX9LRNoriXLtNR+NIaaXtJAKZhkwOICwIZfBzWTHbBQ=
+ModelImporter:
+  serializedVersion: 22361
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    aCLCompressionLevel: 3
+    aCLCurvePrecision: 0.01
+    aCLFastSampleMode: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+    tuanjieGIEnable: 0
+    tuanjieGIGenSDFFactor: 1
+    tuanjieGIGenSDFBias: 0.25
+    tuanjieGIDoubleSidedMode: 0
+    tuanjieGIGenFacetNums: 12
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    totalVerticesCount: 19556
+    totalTrianglesCount: 11529
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  virtualGeometry:
+    virtualGeometry: 0
+    useTransparent: 0
+    setVGForeachMesh: 0
+    isFirstUse: 1
+    virtualGeometrySettings:
+      generateGeometryBuffer: 0
+      surfaceCompensation: 0
+      allMeshUse: 1
+      ignoreSimpleMesh: 0
+      transformScaleState: 0
+      isPossibleOverflow: 0
+      hasBoneData: 0
+      isBoneCountOverflow: 0
+    virtualGeometryPlatformSettings: []
+    selectedVGMeshes:
+    - index: 0
+      meshName: EnvMdrMD_Daiseidou_B_Wall_600W500H_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 1
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_200W_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 2
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_300W300H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 3
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_400W300H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 4
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_400W400H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 5
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_400W550H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 6
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_400W550H_Spline
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 7
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_600W300H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 8
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_800W50H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 9
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_800W200H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 10
+      meshName: EnvMdrMD_Daiseidou_B_Wall_D_600W1800H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 11
+      meshName: EnvMdrMD_Daiseidou_B_Wall_D_800W1800H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 12
+      meshName: EnvMdrMD_Daiseidou_B_Wall_D_1000W1800H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 13
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_900H_A_LS
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 14
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_900H_A_RS
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 15
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_LSD_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 16
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_LSU_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 17
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_RSD_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 18
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_RSU_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 19
+      meshName: EnvMdrMD_Daiseidou_B_Wall_E_2H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 20
+      meshName: EnvMdrMD_Daiseidou_B_Wall_E_Loop_100W300H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 21
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_200W900H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 22
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_200W1000H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 23
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_200W1100H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 24
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_300W700H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 25
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_400W500H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 26
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_400W700H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 27
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_400W900H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 28
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W600H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 29
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W600H_SnowWall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 30
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W700H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 31
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W800H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 32
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W900H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 33
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W1100H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 34
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_4W6H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 35
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_4W7H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 36
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_4W8H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 37
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_6W_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 38
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_6W_End_100H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 39
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_6W7H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 40
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_6W8H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 41
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_8W7H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 42
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_8W8H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 43
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_200W_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 44
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_400W150H_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 45
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_400W250H_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 46
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_400W400H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 47
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_600W150H_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 48
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_600W250H_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 49
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_600W300H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 50
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_End_400W100H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 51
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_Entrance_600W600H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    supportVGMeshes:
+    - index: 0
+      meshName: EnvMdrMD_Daiseidou_B_Wall_600W500H_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 1
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_200W_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 2
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_300W300H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 3
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_400W300H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 4
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_400W400H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 5
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_400W550H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 6
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_400W550H_Spline
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 7
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_600W300H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 8
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_800W50H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 9
+      meshName: EnvMdrMD_Daiseidou_B_Wall_A_800W200H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 10
+      meshName: EnvMdrMD_Daiseidou_B_Wall_D_600W1800H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 11
+      meshName: EnvMdrMD_Daiseidou_B_Wall_D_800W1800H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 12
+      meshName: EnvMdrMD_Daiseidou_B_Wall_D_1000W1800H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 13
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_900H_A_LS
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 14
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_900H_A_RS
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 15
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_LSD_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 16
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_LSU_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 17
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_RSD_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 18
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Debris_RSU_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 19
+      meshName: EnvMdrMD_Daiseidou_B_Wall_E_2H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 20
+      meshName: EnvMdrMD_Daiseidou_B_Wall_E_Loop_100W300H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 21
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_200W900H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 22
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_200W1000H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 23
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_200W1100H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 24
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_300W700H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 25
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_400W500H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 26
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_400W700H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 27
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_400W900H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 28
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W600H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 29
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W600H_SnowWall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 30
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W700H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 31
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W800H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 32
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W900H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 33
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Room_600W1100H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 34
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_4W6H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 35
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_4W7H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 36
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_4W8H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 37
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_6W_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 38
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_6W_End_100H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 39
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_6W7H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 40
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_6W8H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 41
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_8W7H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 42
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_8W8H_Loop
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 43
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_200W_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 44
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_400W150H_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 45
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_400W250H_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 46
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_400W400H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 47
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_600W150H_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 48
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_600W250H_End
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 49
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_600W300H_Start
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 50
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_A_End_400W100H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 51
+      meshName: EnvMdrMD_Daiseidou_B_Wall_Window_Entrance_600W600H_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  overrideDefaultPose: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    namedPoseList:
+    - name: Default
+      skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    defaultPoseIndex: -1
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

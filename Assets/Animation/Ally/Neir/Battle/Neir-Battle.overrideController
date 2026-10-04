@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Neir-Battle
+  m_Controller: {fileID: 9100000, guid: 062cc63f376d44b3f867b980860a2020, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c9429c5f6656e49ec8a2e5e2ef1709e2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e232f3d7a8c8d6e479dc9c2b544b8cbb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 69f9a56dc43af4ef28dc86ca974116fc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fea782d3bcdd4c544b1d0cfc1cd6aa21, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 592298c4baec845858d0ca1514a3c0a7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 69820de901f4d3b469b24f7555ea7653, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18f00f061436340e3920ed09ba8a69f0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1ade58f53971e684696553a6bb1e0c2c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 16866ae26d79640d4a7e9403ba11ac24, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 78f600253b237bc49b698dfa25fe4cc2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7e4d89fc30d784ba68cada6ee38704bd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: abe97e9d4f0839146a331b975f0d5f3a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 894b07c0c7be04cc09af7255d2eff2c7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a9f0ec617d411c44b8f8e5aa8c654d0d, type: 2}

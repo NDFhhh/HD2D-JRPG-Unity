@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ac0a440bd059c4797a3d8a0f3a2a93, type: 3}
+  m_Name: "\u8428\u8D5E\u6258\u65AF"
+  m_EditorClassIdentifier: 
+  ID: Sazantos
+  Name: "\u8428\u8D5E\u6258\u65AF"
+  Portrait: {fileID: -469151339, guid: aa8e36941813a3f478428619e69e35d6, type: 3}
+  BaseLevel: 1
+  BaseStats:
+    MaxHp: 200
+    MaxSp: 500
+    PAtk: 10
+    PDef: 20
+    MAtk: 30
+    MDef: 30
+    Speed: 30
+    Accuracy: 10
+    Evasion: 10
+  BasicAttack: {fileID: 11400000, guid: 9d57d8b8cafd85a40837ca4d476f0746, type: 2}
+  InitialSkills:
+  - {fileID: 11400000, guid: 8dea1974d7d92a746980349b7e0e8fd2, type: 2}
+  fieldAnimator: {fileID: 0}
+  battleAnimator: {fileID: 22100000, guid: 79f722f2e6e758045a6af3119feb94ed, type: 2}
+  ExpReward: 100
+  MoneyReward: 200
+  Drops: []
+  MaxShields: 2
+  Weaknesses: 0600000008000000
+  AiTurning:
+    basicAttackWeight: 10
+    damageSkillWeight: 15
+    defaultSkillWeight: 10
+    telegraphMinBasePower: 50
+    telegraphMinSpCost: 10
+    telegraphHpRatioThreshold: 0.7
+    telegraphWeight: 40
+    healLowHpRatioThreshold: 0.4
+    healBaseWeight: 40
+    healPerLowHpBonus: 20
+    singleHealMultiLowHpPenalty: 0.8
+  BossPhases: []

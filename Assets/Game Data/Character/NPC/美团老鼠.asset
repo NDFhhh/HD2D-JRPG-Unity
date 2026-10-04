@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ac0a440bd059c4797a3d8a0f3a2a93, type: 3}
+  m_Name: "\u7F8E\u56E2\u8001\u9F20"
+  m_EditorClassIdentifier: 
+  ID: MT_Mouse
+  Name: "\u7F8E\u56E2\u8001\u9F20"
+  Portrait: {fileID: 21300000, guid: 0769f7c546d22cc41948eb2a3f779acb, type: 3}
+  BaseLevel: 1
+  BaseStats:
+    MaxHp: 300
+    MaxSp: 300
+    PAtk: 10
+    PDef: 20
+    MAtk: 30
+    MDef: 30
+    Speed: 30
+    Accuracy: 10
+    Evasion: 10
+  BasicAttack: {fileID: 11400000, guid: 9d57d8b8cafd85a40837ca4d476f0746, type: 2}
+  InitialSkills:
+  - {fileID: 11400000, guid: 85f76beca3f2bb14496370616c48e359, type: 2}
+  fieldAnimator: {fileID: 0}
+  battleAnimator: {fileID: 22100000, guid: bcdfeb084a0ce0344803c4bd21393fb1, type: 2}
+  ExpReward: 50
+  MoneyReward: 100
+  Drops:
+  - ItemDefinition: {fileID: 11400000, guid: aa1825fc8e5e3084c8d6513201611e73, type: 2}
+    Quantity: 5
+  - ItemDefinition: {fileID: 11400000, guid: 9645cd6497055954a90d8978aa05ed43, type: 2}
+    Quantity: 1
+  - ItemDefinition: {fileID: 11400000, guid: 28aaa9593fd101748975cc2b5129cf27, type: 2}
+    Quantity: 1
+  MaxShields: 1
+  Weaknesses: 000000000500000008000000
+  AiTurning:
+    basicAttackWeight: 15
+    damageSkillWeight: 10
+    defaultSkillWeight: 5
+    telegraphMinBasePower: 90
+    telegraphMinSpCost: 20
+    telegraphHpRatioThreshold: 0.7
+    telegraphWeight: 40
+    healLowHpRatioThreshold: 0.4
+    healBaseWeight: 40
+    healPerLowHpBonus: 20
+    singleHealMultiLowHpPenalty: 0.8
+  BossPhases:
+  - triggerHpRatio: 0.7
+    overrideMaxShield: 1
+    maxShield: 4
+    overrideWeaknesses: 1
+    weaknesses: 0200000003000000
+    promptText: "\u4F60\u7684\u80C6\u5B50\u771F\u662F\u80A5\u561F\u561F\u7684"
+    introDelay: 1
+    basicAttackWeightMultiplier: 1
+    damageWeightMultiplier: 1
+    healWeightMultiplier: 1
+    telegraphWeightMultiplier: 1
+    phaseBattleAnimator: {fileID: 22100000, guid: 10395b187b7fb874f863a40db22b28e7,
+      type: 2}
+    phaseSound: {fileID: 11400000, guid: 8f12db255516a78478069c91a9ca078f, type: 2}
+  - triggerHpRatio: 0.3
+    overrideMaxShield: 1
+    maxShield: 8
+    overrideWeaknesses: 1
+    weaknesses: 02000000030000000600000007000000
+    promptText: "\u4E5F\u4E0D\u6253\u542C\u6253\u542C\u6211\u662F\u8C01"
+    introDelay: 1
+    basicAttackWeightMultiplier: 1
+    damageWeightMultiplier: 1
+    healWeightMultiplier: 1
+    telegraphWeightMultiplier: 1
+    phaseBattleAnimator: {fileID: 0}
+    phaseSound: {fileID: 0}

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MT Mouse-Battle-P2
+  m_Controller: {fileID: 9100000, guid: 062cc63f376d44b3f867b980860a2020, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 18f00f061436340e3920ed09ba8a69f0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cc239102499898943b17b5e06af5991a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 592298c4baec845858d0ca1514a3c0a7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cc239102499898943b17b5e06af5991a, type: 2}

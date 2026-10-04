@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4e497876c79ccd478a4964fe332fd0b, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: 
+  entries:
+  - Id: 29
+    Cue: {fileID: 11400000, guid: 16688b623e758074cb341eff03edd592, type: 2}
+  - Id: 30
+    Cue: {fileID: 11400000, guid: e04e1b4323444394cb89bcc802ac5410, type: 2}
+  - Id: 32
+    Cue: {fileID: 11400000, guid: a7c4ae3376bc1fa468f26212552f567f, type: 2}
+  - Id: 9
+    Cue: {fileID: 11400000, guid: f646ed514d0ee854083e232b69b4a0a3, type: 2}
+  - Id: 13
+    Cue: {fileID: 11400000, guid: 59460b3e6c6ead94e9c368cddf050de9, type: 2}
+  - Id: 12
+    Cue: {fileID: 11400000, guid: 344d10d4d77dd2a4ab72586fa33cc208, type: 2}
+  - Id: 19
+    Cue: {fileID: 11400000, guid: 425b98490ddc158448634c3a3442b413, type: 2}
+  - Id: 21
+    Cue: {fileID: 11400000, guid: 0bf46300e61b4e04cab5c4f659f7891b, type: 2}
+  - Id: 23
+    Cue: {fileID: 11400000, guid: bb4d5f59a0d71c544929af17896497b3, type: 2}
+  - Id: 25
+    Cue: {fileID: 11400000, guid: bf25dc533dccbdc478013f8f8386eefc, type: 2}
+  - Id: 26
+    Cue: {fileID: 11400000, guid: e958c1f0ac3554444a3a90ffc7d4d6c7, type: 2}
+  - Id: 4
+    Cue: {fileID: 11400000, guid: 3f8261a3ffb36344fb8b674092121cbc, type: 2}

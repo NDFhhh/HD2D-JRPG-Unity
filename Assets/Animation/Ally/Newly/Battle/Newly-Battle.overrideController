@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Newly-Battle
+  m_Controller: {fileID: 9100000, guid: 062cc63f376d44b3f867b980860a2020, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c9429c5f6656e49ec8a2e5e2ef1709e2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6e532f556682cdb488883f39c5277c6c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 69f9a56dc43af4ef28dc86ca974116fc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 14bbbe1e9392da24db0322bdcab9dabd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 592298c4baec845858d0ca1514a3c0a7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: aec97ea5e2f930d4ab8c44872d41618c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18f00f061436340e3920ed09ba8a69f0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eb1936e4bd0a2ac48966dc41819b4c8b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 16866ae26d79640d4a7e9403ba11ac24, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 47951ca31690160438f4a2ca15177f39, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7e4d89fc30d784ba68cada6ee38704bd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 722428ff59509af459784f7f19ba8314, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 894b07c0c7be04cc09af7255d2eff2c7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ab1099684a90f484d812a269c749f899, type: 2}

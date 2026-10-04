@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zane_Field
+  m_Controller: {fileID: 9100000, guid: 0a77835db716442ab93ee06915d9a271, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5be07448cc91547cabd8c5aef1fc94b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0b22673fa5bddc64d968243e27b308d1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a39d33255f1bc4e1e88dc98f73181405, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 561c43570b07f5f47a7516caa60fef44, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 09c6fc92223e64f01b206139eb9239da, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f326705dc6850544799b53c520a6c2b7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c9fd1449fd801451b827099328071fb0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d1c6166e00ae087468e29a56fbf99d30, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5133fdd4faaf34e098d904df64453d4c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 44de238acb7aa0544b6621fe4ead0201, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c630b88a86b6a405583ffcb917820ca4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8936151e7c3f8fc429c0066463908069, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f20e78e70597b40dca4a6ac60ae447d3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ed22fd1ecca64d64f933caada8103d51, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1fafacde5dca54e53b991c10cac5ef22, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 179f1f80bab60cd40a0acf8607a12a9c, type: 2}

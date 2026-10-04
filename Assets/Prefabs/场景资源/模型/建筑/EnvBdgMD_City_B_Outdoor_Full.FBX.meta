@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: DnlJvX+sUC/t2gwTHwAy0/WCg00rXQ4ttZo7vkDqEebEB0U6UeRoTyA=
+ModelImporter:
+  serializedVersion: 22361
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    aCLCompressionLevel: 3
+    aCLCurvePrecision: 0.01
+    aCLFastSampleMode: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+    tuanjieGIEnable: 0
+    tuanjieGIGenSDFFactor: 1
+    tuanjieGIGenSDFBias: 0.25
+    tuanjieGIDoubleSidedMode: 0
+    tuanjieGIGenFacetNums: 12
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    totalVerticesCount: 235624
+    totalTrianglesCount: 143649
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  virtualGeometry:
+    virtualGeometry: 0
+    useTransparent: 0
+    setVGForeachMesh: 0
+    isFirstUse: 1
+    virtualGeometrySettings:
+      generateGeometryBuffer: 0
+      surfaceCompensation: 0
+      allMeshUse: 1
+      ignoreSimpleMesh: 0
+      transformScaleState: 0
+      isPossibleOverflow: 0
+      hasBoneData: 0
+      isBoneCountOverflow: 0
+    virtualGeometryPlatformSettings: []
+    selectedVGMeshes:
+    - index: 0
+      meshName: EnvBdgMD_City_B_Outdoor_Awning_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 1
+      meshName: EnvBdgMD_City_B_Outdoor_Awning_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 2
+      meshName: EnvBdgMD_City_B_Outdoor_Balcony
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 3
+      meshName: EnvBdgMD_City_B_Outdoor_Chimney_L_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 4
+      meshName: EnvBdgMD_City_B_Outdoor_Chimney_L_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 5
+      meshName: EnvBdgMD_City_B_Outdoor_Chimney_S_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 6
+      meshName: EnvBdgMD_City_B_Outdoor_Chimney_S_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 7
+      meshName: EnvBdgMD_City_B_Outdoor_L_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 8
+      meshName: EnvBdgMD_City_B_Outdoor_L_A_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 9
+      meshName: EnvBdgMD_City_B_Outdoor_L_A_Event_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 10
+      meshName: EnvBdgMD_City_B_Outdoor_L_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 11
+      meshName: EnvBdgMD_City_B_Outdoor_L_B_Bluewall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 12
+      meshName: EnvBdgMD_City_B_Outdoor_L_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 13
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 14
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Arrange_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 15
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Arrange_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 16
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 17
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Redwall_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 18
+      meshName: EnvBdgMD_City_B_Outdoor_L_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 19
+      meshName: EnvBdgMD_City_B_Outdoor_L_D_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 20
+      meshName: EnvBdgMD_City_B_Outdoor_L_D_Arrange_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 21
+      meshName: EnvBdgMD_City_B_Outdoor_L_D_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 22
+      meshName: EnvBdgMD_City_B_Outdoor_L_E
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 23
+      meshName: EnvBdgMD_City_B_Outdoor_L_E_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 24
+      meshName: EnvBdgMD_City_B_Outdoor_L_E_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 25
+      meshName: EnvBdgMD_City_B_Outdoor_L_F
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 26
+      meshName: EnvBdgMD_City_B_Outdoor_L_F_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 27
+      meshName: EnvBdgMD_City_B_Outdoor_L_F_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 28
+      meshName: EnvBdgMD_City_B_Outdoor_L_G
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 29
+      meshName: EnvBdgMD_City_B_Outdoor_L_G_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 30
+      meshName: EnvBdgMD_City_B_Outdoor_L_G_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 31
+      meshName: EnvBdgMD_City_B_Outdoor_L_H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 32
+      meshName: EnvBdgMD_City_B_Outdoor_L_H_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 33
+      meshName: EnvBdgMD_City_B_Outdoor_L_H_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 34
+      meshName: EnvBdgMD_City_B_Outdoor_Landing
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 35
+      meshName: EnvBdgMD_City_B_Outdoor_Pub_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 36
+      meshName: EnvBdgMD_City_B_Outdoor_S_A_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 37
+      meshName: EnvBdgMD_City_B_Outdoor_S_B_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 38
+      meshName: EnvBdgMD_City_B_Outdoor_S_B_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 39
+      meshName: EnvBdgMD_City_B_Outdoor_S_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 40
+      meshName: EnvBdgMD_City_B_Outdoor_S_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 41
+      meshName: EnvBdgMD_City_B_Outdoor_ShopWindow_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 42
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 43
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_A_Vertical
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 44
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 45
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_D_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 46
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_D_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 47
+      meshName: EnvBdgMD_City_B_Outdoor_Theater_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 48
+      meshName: EnvBdgMD_City_B_Outdoor_Window_L_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 49
+      meshName: EnvBdgMD_City_B_Outdoor_Window_L_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 50
+      meshName: EnvBdgMD_City_B_Outdoor_Window_L_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    supportVGMeshes:
+    - index: 0
+      meshName: EnvBdgMD_City_B_Outdoor_Awning_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 1
+      meshName: EnvBdgMD_City_B_Outdoor_Awning_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 2
+      meshName: EnvBdgMD_City_B_Outdoor_Balcony
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 3
+      meshName: EnvBdgMD_City_B_Outdoor_Chimney_L_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 4
+      meshName: EnvBdgMD_City_B_Outdoor_Chimney_L_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 5
+      meshName: EnvBdgMD_City_B_Outdoor_Chimney_S_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 6
+      meshName: EnvBdgMD_City_B_Outdoor_Chimney_S_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 7
+      meshName: EnvBdgMD_City_B_Outdoor_L_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 8
+      meshName: EnvBdgMD_City_B_Outdoor_L_A_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 9
+      meshName: EnvBdgMD_City_B_Outdoor_L_A_Event_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 10
+      meshName: EnvBdgMD_City_B_Outdoor_L_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 11
+      meshName: EnvBdgMD_City_B_Outdoor_L_B_Bluewall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 12
+      meshName: EnvBdgMD_City_B_Outdoor_L_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 13
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 14
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Arrange_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 15
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Arrange_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 16
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 17
+      meshName: EnvBdgMD_City_B_Outdoor_L_C_Redwall_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 18
+      meshName: EnvBdgMD_City_B_Outdoor_L_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 19
+      meshName: EnvBdgMD_City_B_Outdoor_L_D_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 20
+      meshName: EnvBdgMD_City_B_Outdoor_L_D_Arrange_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 21
+      meshName: EnvBdgMD_City_B_Outdoor_L_D_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 22
+      meshName: EnvBdgMD_City_B_Outdoor_L_E
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 23
+      meshName: EnvBdgMD_City_B_Outdoor_L_E_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 24
+      meshName: EnvBdgMD_City_B_Outdoor_L_E_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 25
+      meshName: EnvBdgMD_City_B_Outdoor_L_F
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 26
+      meshName: EnvBdgMD_City_B_Outdoor_L_F_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 27
+      meshName: EnvBdgMD_City_B_Outdoor_L_F_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 28
+      meshName: EnvBdgMD_City_B_Outdoor_L_G
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 29
+      meshName: EnvBdgMD_City_B_Outdoor_L_G_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 30
+      meshName: EnvBdgMD_City_B_Outdoor_L_G_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 31
+      meshName: EnvBdgMD_City_B_Outdoor_L_H
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 32
+      meshName: EnvBdgMD_City_B_Outdoor_L_H_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 33
+      meshName: EnvBdgMD_City_B_Outdoor_L_H_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 34
+      meshName: EnvBdgMD_City_B_Outdoor_Landing
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 35
+      meshName: EnvBdgMD_City_B_Outdoor_Pub_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 36
+      meshName: EnvBdgMD_City_B_Outdoor_S_A_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 37
+      meshName: EnvBdgMD_City_B_Outdoor_S_B_Arrange_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 38
+      meshName: EnvBdgMD_City_B_Outdoor_S_B_Redwall_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 39
+      meshName: EnvBdgMD_City_B_Outdoor_S_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 40
+      meshName: EnvBdgMD_City_B_Outdoor_S_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 41
+      meshName: EnvBdgMD_City_B_Outdoor_ShopWindow_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 42
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 43
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_A_Vertical
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 44
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 45
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_D_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 46
+      meshName: EnvBdgMD_City_B_Outdoor_Signbord_D_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 47
+      meshName: EnvBdgMD_City_B_Outdoor_Theater_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 48
+      meshName: EnvBdgMD_City_B_Outdoor_Window_L_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 49
+      meshName: EnvBdgMD_City_B_Outdoor_Window_L_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 50
+      meshName: EnvBdgMD_City_B_Outdoor_Window_L_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  overrideDefaultPose: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    namedPoseList:
+    - name: Default
+      skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    defaultPoseIndex: -1
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

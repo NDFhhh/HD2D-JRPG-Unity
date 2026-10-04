@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43c5125ced36c24992bcc265cdb33d9, type: 3}
+  m_Name: "\u5200\u6247"
+  m_EditorClassIdentifier: 
+  specialLogic: {fileID: 0}
+  skillID: "\u5200\u6247"
+  skillName: "\u5200\u6247"
+  description: 
+  icon: {fileID: 21300000, guid: 4174f084b43e349c185e1eddf69829df, type: 3}
+  spCost: 25
+  targetType: 1
+  skillType: 0
+  damageKind: 0
+  elementType: 0
+  weaponType: 1
+  basePower: 100
+  hitCount: 1
+  healAmount: 0
+  boostTiers:
+  - tier: 0
+    powerMultiplier: 1
+    hitCountBonus: 0
+    chanceBonus: 0
+    durationBonus: 0
+    genericValueBonus: 0
+  - tier: 1
+    powerMultiplier: 1
+    hitCountBonus: 0
+    chanceBonus: 0
+    durationBonus: 0
+    genericValueBonus: 0
+  - tier: 2
+    powerMultiplier: 1
+    hitCountBonus: 0
+    chanceBonus: 0
+    durationBonus: 0
+    genericValueBonus: 0
+  - tier: 3
+    powerMultiplier: 1
+    hitCountBonus: 0
+    chanceBonus: 0
+    durationBonus: 0
+    genericValueBonus: 0
+  hitVfxPrefab: {fileID: 2360655870356088562, guid: 57a776ff377f3c44e8403e2067a4d41f,
+    type: 3}
+  vfxSpawnMode: 2
+  vfxSpawnFromCaster: 1
+  vfxOffset: {x: 0, y: 0.5, z: -0.1}
+  vfxYRotation: 0
+  vfxHitDelay: 0
+  vfxLifetime: 2
+  cameraImpulseStrength: 0.3
+  telegraphVfxPrefab: {fileID: 7053385775836331393, guid: 354b6251e950209409c75ab984acf000,
+    type: 3}
+  telegraphVfxOffset: {x: 0, y: -0.5, z: 0}
+  telegraphVfxLifetime: 0
+  telegraphVfxAttachToCaster: 1

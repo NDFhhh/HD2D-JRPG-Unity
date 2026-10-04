@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6813841f7afb543845d2e8f5298317, type: 3}
+  m_Name: Stick_Staff
+  m_EditorClassIdentifier: 
+  ItemName: "\u6728\u68CD\u6CD5\u6756"
+  ItemDescription: "\u6700\u5927SP <b><color=lightblue>+10</color=lightblue></b>\n\u9B54\u6CD5\u653B\u51FB\u529B
+    <b><color=purple>+10</color=purple></b>"
+  ItemType: 0
+  ItemIconKey: 0
+  BuyPrice: 100
+  MaxStack: 99
+  RarityWeight: 100
+  category: 0
+  weaponType: 6
+  statBonus:
+    MaxHp: 0
+    MaxSp: 10
+    PAtk: 0
+    PDef: 0
+    MAtk: 10
+    MDef: 0
+    Speed: 0
+    Accuracy: 0
+    Evasion: 0

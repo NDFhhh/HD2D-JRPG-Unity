@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6edaa3fc019c2d49b3dedadd38e332e, type: 3}
+  m_Name: Player_Footstep
+  m_EditorClassIdentifier: 
+  variants:
+  - Clip: {fileID: 8300000, guid: 105f9ff46e4705c4984dcf1a3071a7d4, type: 3}
+    Volume: 1
+  - Clip: {fileID: 8300000, guid: 3347e536ba0bfdd43a9284abf73a710a, type: 3}
+    Volume: 1
+  - Clip: {fileID: 8300000, guid: 44ee4cb9e93c04947808093b20675356, type: 3}
+    Volume: 1
+  - Clip: {fileID: 8300000, guid: 142fe8feada5cc04695d0c78d1adac41, type: 3}
+    Volume: 1
+  pitchRange: {x: 0.95, y: 1.05}
+  maxVoices: 4
+  cooldown: 0.25

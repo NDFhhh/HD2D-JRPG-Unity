@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b6abd7583abbb4ab427871b8e1bb06, type: 3}
+  m_Name: Zane
+  m_EditorClassIdentifier: 
+  ID: Zane
+  Name: "\u8D5E\u6069"
+  Portrait: {fileID: 463951968, guid: 1aa3939c061aa44f7875021bed33998a, type: 3}
+  BaseLevel: 1
+  BaseStats:
+    MaxHp: 150
+    MaxSp: 60
+    PAtk: 10
+    PDef: 10
+    MAtk: 10
+    MDef: 10
+    Speed: 10
+    Accuracy: 10
+    Evasion: 10
+  BasicAttack: {fileID: 11400000, guid: 7bf0858d10e28f04db9e24636085b5df, type: 2}
+  InitialSkills:
+  - {fileID: 11400000, guid: 84bfb2edc30d4f74eac93330c4d3039d, type: 2}
+  - {fileID: 11400000, guid: 85f76beca3f2bb14496370616c48e359, type: 2}
+  - {fileID: 11400000, guid: 8dea1974d7d92a746980349b7e0e8fd2, type: 2}
+  - {fileID: 11400000, guid: 982c8db692adb774db774513212694e8, type: 2}
+  - {fileID: 11400000, guid: 8b99e9bfef2e7754e9c90ddd37d51dd6, type: 2}
+  - {fileID: 11400000, guid: 9c3e9d8b7ae0e3c4090c42033c7f6630, type: 2}
+  fieldAnimator: {fileID: 22100000, guid: bf417319ebba5984fbaed563f4d83447, type: 2}
+  battleAnimator: {fileID: 22100000, guid: 1b29f94166646ad4b8cbfb644f4b4aee, type: 2}
+  Job: 8
+  globalGrowthConfig_SO: {fileID: 11400000, guid: 9748ad3663f984547a76962a3dde3995,
+    type: 2}
+  growthProfile:
+    HP: 0
+    SP: 0
+    PAtk: 0
+    PDef: 0
+    MAtk: 0
+    MDef: 0
+    Speed: 0
+  EquipableWeaponTypes: 01000000
+  InitialEquipment: []
+  ExpToNextLevelAtLv1: 200
+  ExpGrowthPerLevel: 1.15
+  MaxLevel: 99

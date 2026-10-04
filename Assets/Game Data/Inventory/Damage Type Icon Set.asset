@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20cf33b10c5b6945ae3544da006d718, type: 3}
+  m_Name: Damage Type Icon Set
+  m_EditorClassIdentifier: 
+  entries:
+  - damageType: 3
+    icon: {fileID: 21300000, guid: 218b36c15a27d490b96150abcc67b2d1, type: 3}
+  - damageType: 4
+    icon: {fileID: 21300000, guid: adfc5a3a737304951970a74c20f46409, type: 3}
+  - damageType: 2
+    icon: {fileID: 21300000, guid: 565e6b099ab1b41d499ee10439fd840c, type: 3}
+  - damageType: 11
+    icon: {fileID: 21300000, guid: 787dc25d809af41d6bdf4144d31b7d03, type: 3}
+  - damageType: 6
+    icon: {fileID: 21300000, guid: ebe39ca33b8b5423dada712be030912b, type: 3}
+  - damageType: 7
+    icon: {fileID: 21300000, guid: 1d3435619e6ba459d9e4116be9f58db5, type: 3}
+  - damageType: 10
+    icon: {fileID: 21300000, guid: f09a84e4aed2c474e9381bf4ac816f25, type: 3}
+  - damageType: 8
+    icon: {fileID: 21300000, guid: d0b35ec025fba4a0fb374e760d06f0b6, type: 3}
+  - damageType: 1
+    icon: {fileID: 21300000, guid: 55de80ade4e61439b9d627a27cb0ef0a, type: 3}
+  - damageType: 5
+    icon: {fileID: 21300000, guid: 9084946a6985349de8427ba6eec80bbc, type: 3}
+  - damageType: 9
+    icon: {fileID: 21300000, guid: 0fd1424873bc44179a886efc4190b5d4, type: 3}
+  - damageType: 0
+    icon: {fileID: 21300000, guid: 8556909d699ef446d89dc4cf80d68dfe, type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lyra_Field
+  m_Controller: {fileID: 9100000, guid: 0a77835db716442ab93ee06915d9a271, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5be07448cc91547cabd8c5aef1fc94b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b909ba5c301608445ae569a897491629, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a39d33255f1bc4e1e88dc98f73181405, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3283ee531ca5fd042a98bf1f453aeaa9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 09c6fc92223e64f01b206139eb9239da, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a2308c194a6032f47b59464a04de25d8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c9fd1449fd801451b827099328071fb0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 26632a9214be2ac46a037cbb95d551ad, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5133fdd4faaf34e098d904df64453d4c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 793248fd45ae1e44fa380e9948f9788a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c630b88a86b6a405583ffcb917820ca4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 44303dfa18d84484ab8674b07afbdb33, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f20e78e70597b40dca4a6ac60ae447d3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1e05480f3d67139408cfcc7af2a3b6cc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1fafacde5dca54e53b991c10cac5ef22, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 114824d7a4dfad74c99f571904f2318b, type: 2}

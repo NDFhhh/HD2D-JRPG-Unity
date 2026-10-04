@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Garrick_Field
+  m_Controller: {fileID: 9100000, guid: 0a77835db716442ab93ee06915d9a271, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5be07448cc91547cabd8c5aef1fc94b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e0577dad4cb72df4da4cf560fa4aeb92, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a39d33255f1bc4e1e88dc98f73181405, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8bdebf828cead4b4eb7aaebb5bd9c0e5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 09c6fc92223e64f01b206139eb9239da, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a6305fd586acb924d82d4c8acc3dd24b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c9fd1449fd801451b827099328071fb0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 25f127a7908860541bc5ecd119b68962, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5133fdd4faaf34e098d904df64453d4c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 61a110355e5a4c644834306373468915, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c630b88a86b6a405583ffcb917820ca4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 46cb98ed1945a074e9806166e44f9ec1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f20e78e70597b40dca4a6ac60ae447d3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 92b291bb5aa05d948882db5c09541abc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1fafacde5dca54e53b991c10cac5ef22, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 57c3bc18a13aa9246b6109cf18a8a437, type: 2}

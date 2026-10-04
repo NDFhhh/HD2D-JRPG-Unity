@@ -1,0 +1,53 @@
+# ===========================
+# Unity 生成的大文件 / 缓存
+# ===========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# ===========================
+# IDE / 编辑器
+# ===========================
+.idea/
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.suo
+*.tmp
+*.pidb
+*.booproj
+*.svd
+*.unityproj
+*.booproj
+*.svc
+*.mdb
+*.pdb
+sysinfo.txt
+
+# ===========================
+# Unity Addressables / 包管理缓存
+# ===========================
+[Aa]ssets/[Aa]ssetStoreTools*
+[Uu]nityPackageManager/
+Assets/AddressableAssetsData/*.bin
+Assets/AddressableAssetsData/*.hash
+
+# ===========================
+# 工具 / Agent 会话目录（不要传）
+# ===========================
+.workbuddy/
+.com-unity-codely.json
+
+# ===========================
+# 系统 / 杂项
+# ===========================
+.DS_Store
+Thumbs.db

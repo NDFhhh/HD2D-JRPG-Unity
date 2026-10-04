@@ -1,0 +1,1631 @@
+fileFormatVersion: 2
+guid: CywctnuoUHOQkK8mdyElcD5AvEqHTfIKAFKbbQff2LVLbVLgBsJsPoY=
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 14
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  webStreaming: 0
+  priorityLevel: 0
+  uploadedMode: 2
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    maxPlaceholderSize: 32
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    maxPlaceholderSize: 32
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    maxPlaceholderSize: 32
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Newly_Field02_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 211
+        width: 17
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26544cda692af984790226eee8414040
+      internalID: 1950107105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 211
+        width: 16
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad84a66c35d53e47adc2e6845da2339
+      internalID: 796310064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 211
+        width: 16
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00523b964198a3742a1fbd7dc64b5aa6
+      internalID: -1238848766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 211
+        width: 17
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e78df1ae64a78c48b268aa1e6fc2218
+      internalID: 2090006261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 211
+        width: 16
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e2010194ce60e488db82b659d86c6c
+      internalID: 388320589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 211
+        width: 16
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd87d689a5f6fc944816ef2580825f0f
+      internalID: 1178276809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 211
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d804307df07232438be6153eb65e4d5
+      internalID: 1155478518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 211
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20c038457539e9468af583283b0312c
+      internalID: -389615872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 211
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faad0ab3dd641f4eaca4ed653ef4937
+      internalID: 1514955552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 211
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f19c25883bbd2e4b89e56d66b823c34
+      internalID: -33919620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 211
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea5c6f63aa00fb4e842fc5d05849942
+      internalID: -1334398368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 211
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c84f668f6ad8e94ea30ab2ac0a96348
+      internalID: -1135115489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 211
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb384b9196e5543b1fde37455212ee
+      internalID: 312810881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 169
+        width: 17
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618ec2ac04c6c4942a0987a0935f7d46
+      internalID: 2106026797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 169
+        width: 16
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cd4fb96b9ec884daa226af95397afd
+      internalID: 415955966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 169
+        width: 16
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eff1569110456042a2366560f78135b
+      internalID: -1988769235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 169
+        width: 17
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5595bc305c082c49b87ffa5897d1d2a
+      internalID: 1878761961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 169
+        width: 16
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b348bb0575dfa4f989240e1a57d9e3
+      internalID: -2062827967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 169
+        width: 16
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac24ca41cf83f14a9f4233f57212d3f
+      internalID: -1376694022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 169
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43333aaec7fa5314890298dfee8d5c7a
+      internalID: -1739249138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 169
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973a8a077894b7f4ebcc655008fcb556
+      internalID: -191379788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_21
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 169
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e7510085fc38941bb53386555dc866
+      internalID: 1256424445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 169
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8718ca5bb8b56804da756b557e09f34d
+      internalID: -1235102859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_23
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 169
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c81694460218a469bcda45a134382e
+      internalID: -1762894095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_24
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 169
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa0de40402037a498ee326ccb0ed5e0
+      internalID: -1049407715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_25
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 169
+        width: 18
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57251a14fb1d3114ea0427fea4b600b1
+      internalID: -132606798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 16
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0155cde9c2274814cb3e635b4050e2f8
+      internalID: 126484148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 127
+        width: 15
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ba3cca4d5008d49bb2b5e7ea86f31d
+      internalID: 789007152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_28
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 127
+        width: 17
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057f9838898413d4188805ac09d95257
+      internalID: -153139643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 127
+        width: 16
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c54fee4ca52944987bf368bba97bda
+      internalID: -1656964512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_30
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 127
+        width: 16
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b0d053cf8b7a744b1b9f17a810f0e8
+      internalID: 1330964894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 127
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8245c9e78f17741b92a16b6d5aade8
+      internalID: 813593192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d7e1d27ce34024ea0eef45e050ad94
+      internalID: -8861114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_33
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 127
+        width: 18
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9104d0b32385a6469ca8e21bf92e732
+      internalID: 108471759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_34
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 127
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dea300ef9ed1149a01b6dc98628861
+      internalID: 387846747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_35
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 126
+        width: 20
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50cf7a590696f148a042aa2743b1eab
+      internalID: -2013493579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_36
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 126
+        width: 16
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9b8df0fcee0174c9877660c3728b42
+      internalID: 149567887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_37
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 126
+        width: 21
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512b41a341aaf2c48a0e89d2fc2ffb6a
+      internalID: 1924058522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_38
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 127
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b410295ba7cbbf14fbc3050cb0051ca5
+      internalID: -1958308035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 85
+        width: 18
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffec3ef1c2468bf4d8ba9a5204bc1465
+      internalID: 743055366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 85
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8823f28e9407e40a21c29b3f8b6aae
+      internalID: 875359815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_41
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 86
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f560faaecbf91847bf146733beecedc
+      internalID: 1820320587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 85
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb09eeba1f5ffd4f83629075a0321a8
+      internalID: 545390268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_43
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 85
+        width: 17
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be361a1314ce7d45a0779ae27a01a0a
+      internalID: -880499231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_44
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 85
+        width: 17
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad16925ce9ddd624183a3aad9e391dd7
+      internalID: -328388464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_45
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 85
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05423346f22bd324bbe85e007a386ac8
+      internalID: -1647681841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_46
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 85
+        width: 17
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814a895e041a68543a7ba6396965baf9
+      internalID: -1242385303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_47
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 85
+        width: 20
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cdc2cba599d3640a29359d659ad121
+      internalID: 1955649102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_48
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 85
+        width: 20
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb72715af40a25489e1ed5219b91c49
+      internalID: 1854460906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_49
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 85
+        width: 38
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e8ae805b89d2b4c956d5cf0cce84d4
+      internalID: -923065162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 85
+        width: 17
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc93f6b4f8a64c43baf4847a1c7ee45
+      internalID: 403408852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 43
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd7d9da0b80dba4cb21fc7decb78cea
+      internalID: 257959114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_52
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 43
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba96822fb937b24d9e597d9b3fc5a2c
+      internalID: -1041906964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_53
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 43
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea403ae86b8a8e43bff706e3bfaf5c6
+      internalID: -1266012608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_54
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 43
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9be658dab1c564a868c405d8659cc4
+      internalID: -532276873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_55
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 43
+        width: 20
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c8e6d6470618a43aa0b380b0ac1828
+      internalID: -1514976615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_56
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 42
+        width: 22
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3f9287cc9e9d42954618bd37c73e8
+      internalID: 414643936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_57
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 43
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9a94695daef946af13e657b28dcd8
+      internalID: 2010308764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_58
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 43
+        width: 24
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f3ca1e1ef7fae488e096eac2cc8878
+      internalID: -2083592536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_59
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 44
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37306dbf1f2710b429b5b460268d1522
+      internalID: -440783442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_60
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 43
+        width: 17
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60deb5ef67a6d7746adcfeef19f27e69
+      internalID: -697817609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_61
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 22
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de01087c03d90748ba2e3d49eba68ea
+      internalID: -1556337920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_62
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e03ba6aa95da744a96ea9c8a171d1a
+      internalID: -507054848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1
+        width: 23
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ad7f47a9cf6f64183abb53af64559a
+      internalID: -1130617885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_64
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1
+        width: 25
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77317a804642a8b46b43a313d5efc4be
+      internalID: -362598452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_65
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698350f3862947445a78341a8f354b35
+      internalID: 1959895143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_66
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1
+        width: 32
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cf6e900d38012488fda3f4fd51693d
+      internalID: -96938726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Newly_Field02_67
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f236c23f5ba966d429d3a5e342cf6b2e
+      internalID: -977086600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Newly_Field02_0: 1950107105
+      Newly_Field02_1: 796310064
+      Newly_Field02_10: -1334398368
+      Newly_Field02_11: -1135115489
+      Newly_Field02_12: 312810881
+      Newly_Field02_13: 2106026797
+      Newly_Field02_14: 415955966
+      Newly_Field02_15: -1988769235
+      Newly_Field02_16: 1878761961
+      Newly_Field02_17: -2062827967
+      Newly_Field02_18: -1376694022
+      Newly_Field02_19: -1739249138
+      Newly_Field02_2: -1238848766
+      Newly_Field02_20: -191379788
+      Newly_Field02_21: 1256424445
+      Newly_Field02_22: -1235102859
+      Newly_Field02_23: -1762894095
+      Newly_Field02_24: -1049407715
+      Newly_Field02_25: -132606798
+      Newly_Field02_26: 126484148
+      Newly_Field02_27: 789007152
+      Newly_Field02_28: -153139643
+      Newly_Field02_29: -1656964512
+      Newly_Field02_3: 2090006261
+      Newly_Field02_30: 1330964894
+      Newly_Field02_31: 813593192
+      Newly_Field02_32: -8861114
+      Newly_Field02_33: 108471759
+      Newly_Field02_34: 387846747
+      Newly_Field02_35: -2013493579
+      Newly_Field02_36: 149567887
+      Newly_Field02_37: 1924058522
+      Newly_Field02_38: -1958308035
+      Newly_Field02_39: 743055366
+      Newly_Field02_4: 388320589
+      Newly_Field02_40: 875359815
+      Newly_Field02_41: 1820320587
+      Newly_Field02_42: 545390268
+      Newly_Field02_43: -880499231
+      Newly_Field02_44: -328388464
+      Newly_Field02_45: -1647681841
+      Newly_Field02_46: -1242385303
+      Newly_Field02_47: 1955649102
+      Newly_Field02_48: 1854460906
+      Newly_Field02_49: -923065162
+      Newly_Field02_5: 1178276809
+      Newly_Field02_50: 403408852
+      Newly_Field02_51: 257959114
+      Newly_Field02_52: -1041906964
+      Newly_Field02_53: -1266012608
+      Newly_Field02_54: -532276873
+      Newly_Field02_55: -1514976615
+      Newly_Field02_56: 414643936
+      Newly_Field02_57: 2010308764
+      Newly_Field02_58: -2083592536
+      Newly_Field02_59: -440783442
+      Newly_Field02_6: 1155478518
+      Newly_Field02_60: -697817609
+      Newly_Field02_61: -1556337920
+      Newly_Field02_62: -507054848
+      Newly_Field02_63: -1130617885
+      Newly_Field02_64: -362598452
+      Newly_Field02_65: 1959895143
+      Newly_Field02_66: -96938726
+      Newly_Field02_67: -977086600
+      Newly_Field02_7: -389615872
+      Newly_Field02_8: 1514955552
+      Newly_Field02_9: -33919620
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  doOverrideTextureManagerOperations: 0
+  platformOperationGroupSettings: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

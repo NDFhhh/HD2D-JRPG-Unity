@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: XHlM4yirBS+fX63WYb/vZafU3B96dYGWMBhNysOd2IjU2U7DPpf9E3U=
+ModelImporter:
+  serializedVersion: 22361
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    aCLCompressionLevel: 3
+    aCLCurvePrecision: 0.01
+    aCLFastSampleMode: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+    tuanjieGIEnable: 0
+    tuanjieGIGenSDFFactor: 1
+    tuanjieGIGenSDFBias: 0.25
+    tuanjieGIDoubleSidedMode: 0
+    tuanjieGIGenFacetNums: 12
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    totalVerticesCount: 2377
+    totalTrianglesCount: 1984
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  virtualGeometry:
+    virtualGeometry: 0
+    useTransparent: 0
+    setVGForeachMesh: 0
+    isFirstUse: 1
+    virtualGeometrySettings:
+      generateGeometryBuffer: 0
+      surfaceCompensation: 0
+      allMeshUse: 1
+      ignoreSimpleMesh: 0
+      transformScaleState: 0
+      isPossibleOverflow: 0
+      hasBoneData: 0
+      isBoneCountOverflow: 0
+    virtualGeometryPlatformSettings: []
+    selectedVGMeshes:
+    - index: 0
+      meshName: ObjMD_Objects_A_apple_green
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 1
+      meshName: ObjMD_Objects_A_apple_red
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 2
+      meshName: ObjMD_Objects_A_apple_red_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 3
+      meshName: ObjMD_Objects_A_apple_red_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 4
+      meshName: ObjMD_Objects_A_armor
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 5
+      meshName: ObjMD_Objects_A_bag
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 6
+      meshName: ObjMD_Objects_A_bottle_whiteA
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 7
+      meshName: ObjMD_Objects_A_bottle_whiteB
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 8
+      meshName: ObjMD_Objects_A_bottleA
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 9
+      meshName: ObjMD_Objects_A_bottleB
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 10
+      meshName: ObjMD_Objects_A_bottleC
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 11
+      meshName: ObjMD_Objects_A_bottleD
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 12
+      meshName: ObjMD_Objects_A_bottleE
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 13
+      meshName: ObjMD_Objects_A_fish_blue
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 14
+      meshName: ObjMD_Objects_A_fish_yellow
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 15
+      meshName: ObjMD_Objects_A_helm
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 16
+      meshName: ObjMD_Objects_A_lemon
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 17
+      meshName: ObjMD_Objects_A_orange
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 18
+      meshName: ObjMD_Objects_A_rope
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 19
+      meshName: ObjMD_Objects_A_shield
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 20
+      meshName: ObjMD_Objects_A_sword
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 21
+      meshName: ObjMD_Objects_A_sword_deco
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 22
+      meshName: ObjMD_Objects_Bread_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 23
+      meshName: ObjMD_Objects_Bread_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 24
+      meshName: ObjMD_Objects_Bread_E
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 25
+      meshName: ObjMD_Objects_Bread_F
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 26
+      meshName: ObjMD_Objects_Bread_I
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 27
+      meshName: ObjMD_Objects_Carrot_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 28
+      meshName: ObjMD_Objects_Cheese_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 29
+      meshName: ObjMD_Objects_Cheese_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 30
+      meshName: ObjMD_Objects_Corn_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 31
+      meshName: ObjMD_Objects_Crab_Red_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 32
+      meshName: ObjMD_Objects_Crab_Yellow_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 33
+      meshName: ObjMD_Objects_Cup_A_L
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 34
+      meshName: ObjMD_Objects_Cup_A_R
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 35
+      meshName: ObjMD_Objects_Dish_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 36
+      meshName: ObjMD_Objects_Dish_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 37
+      meshName: ObjMD_Objects_Egg_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 38
+      meshName: ObjMD_Objects_Fish_Blue_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 39
+      meshName: ObjMD_Objects_Fish_Blue_A_Swim
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 40
+      meshName: ObjMD_Objects_Fish_Blue_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 41
+      meshName: ObjMD_Objects_Fish_Red_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 42
+      meshName: ObjMD_Objects_Garlic_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 43
+      meshName: ObjMD_Objects_Meat_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 44
+      meshName: ObjMD_Objects_Meat_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 45
+      meshName: ObjMD_Objects_Meat_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 46
+      meshName: ObjMD_Objects_Meat_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 47
+      meshName: ObjMD_Objects_Meat_E
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 48
+      meshName: ObjMD_Objects_Meat_F
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 49
+      meshName: ObjMD_Objects_Onion_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 50
+      meshName: ObjMD_Objects_Onion_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 51
+      meshName: ObjMD_Objects_Potato_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 52
+      meshName: ObjMD_Objects_Pumpkin_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 53
+      meshName: ObjMD_Objects_Pumpkin_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 54
+      meshName: ObjMD_Objects_Radish_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 55
+      meshName: ObjMD_Objects_Scuid_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 56
+      meshName: ObjMD_Objects_Shell_Red_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 57
+      meshName: ObjMD_Objects_Shell_Yellow_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 58
+      meshName: ObjMD_Objects_Shrimp_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 59
+      meshName: ObjMD_Objects_Tomato_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 60
+      meshName: ObjMD_Objects_Tomato_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 61
+      meshName: ObjMD_Objects_Tumip_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    supportVGMeshes:
+    - index: 0
+      meshName: ObjMD_Objects_A_apple_green
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 1
+      meshName: ObjMD_Objects_A_apple_red
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 2
+      meshName: ObjMD_Objects_A_apple_red_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 3
+      meshName: ObjMD_Objects_A_apple_red_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 4
+      meshName: ObjMD_Objects_A_armor
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 5
+      meshName: ObjMD_Objects_A_bag
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 6
+      meshName: ObjMD_Objects_A_bottle_whiteA
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 7
+      meshName: ObjMD_Objects_A_bottle_whiteB
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 8
+      meshName: ObjMD_Objects_A_bottleA
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 9
+      meshName: ObjMD_Objects_A_bottleB
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 10
+      meshName: ObjMD_Objects_A_bottleC
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 11
+      meshName: ObjMD_Objects_A_bottleD
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 12
+      meshName: ObjMD_Objects_A_bottleE
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 13
+      meshName: ObjMD_Objects_A_fish_blue
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 14
+      meshName: ObjMD_Objects_A_fish_yellow
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 15
+      meshName: ObjMD_Objects_A_helm
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 16
+      meshName: ObjMD_Objects_A_lemon
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 17
+      meshName: ObjMD_Objects_A_orange
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 18
+      meshName: ObjMD_Objects_A_rope
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 19
+      meshName: ObjMD_Objects_A_shield
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 20
+      meshName: ObjMD_Objects_A_sword
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 21
+      meshName: ObjMD_Objects_A_sword_deco
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 22
+      meshName: ObjMD_Objects_Bread_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 23
+      meshName: ObjMD_Objects_Bread_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 24
+      meshName: ObjMD_Objects_Bread_E
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 25
+      meshName: ObjMD_Objects_Bread_F
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 26
+      meshName: ObjMD_Objects_Bread_I
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 27
+      meshName: ObjMD_Objects_Carrot_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 28
+      meshName: ObjMD_Objects_Cheese_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 29
+      meshName: ObjMD_Objects_Cheese_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 30
+      meshName: ObjMD_Objects_Corn_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 31
+      meshName: ObjMD_Objects_Crab_Red_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 32
+      meshName: ObjMD_Objects_Crab_Yellow_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 33
+      meshName: ObjMD_Objects_Cup_A_L
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 34
+      meshName: ObjMD_Objects_Cup_A_R
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 35
+      meshName: ObjMD_Objects_Dish_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 36
+      meshName: ObjMD_Objects_Dish_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 37
+      meshName: ObjMD_Objects_Egg_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 38
+      meshName: ObjMD_Objects_Fish_Blue_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 39
+      meshName: ObjMD_Objects_Fish_Blue_A_Swim
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 40
+      meshName: ObjMD_Objects_Fish_Blue_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 41
+      meshName: ObjMD_Objects_Fish_Red_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 42
+      meshName: ObjMD_Objects_Garlic_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 43
+      meshName: ObjMD_Objects_Meat_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 44
+      meshName: ObjMD_Objects_Meat_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 45
+      meshName: ObjMD_Objects_Meat_C
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 46
+      meshName: ObjMD_Objects_Meat_D
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 47
+      meshName: ObjMD_Objects_Meat_E
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 48
+      meshName: ObjMD_Objects_Meat_F
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 49
+      meshName: ObjMD_Objects_Onion_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 50
+      meshName: ObjMD_Objects_Onion_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 51
+      meshName: ObjMD_Objects_Potato_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 52
+      meshName: ObjMD_Objects_Pumpkin_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 53
+      meshName: ObjMD_Objects_Pumpkin_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 54
+      meshName: ObjMD_Objects_Radish_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 55
+      meshName: ObjMD_Objects_Scuid_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 56
+      meshName: ObjMD_Objects_Shell_Red_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 57
+      meshName: ObjMD_Objects_Shell_Yellow_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 58
+      meshName: ObjMD_Objects_Shrimp_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 59
+      meshName: ObjMD_Objects_Tomato_A
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 60
+      meshName: ObjMD_Objects_Tomato_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+    - index: 61
+      meshName: ObjMD_Objects_Tumip_B
+      lodLevel: 0
+      meshGeometryBuffer: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  overrideDefaultPose: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    namedPoseList:
+    - name: Default
+      skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    defaultPoseIndex: -1
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
