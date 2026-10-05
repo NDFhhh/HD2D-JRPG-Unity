@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: SoundLibrary
   m_EditorClassIdentifier: 
   entries:
-  - Id: 29
-    Cue: {fileID: 11400000, guid: 16688b623e758074cb341eff03edd592, type: 2}
   - Id: 30
     Cue: {fileID: 11400000, guid: e04e1b4323444394cb89bcc802ac5410, type: 2}
   - Id: 32
