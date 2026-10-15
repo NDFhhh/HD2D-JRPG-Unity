@@ -1,0 +1,93 @@
+======================================================================
+补齐剩余 XGUID -> 新 32 位 hex GUID
+======================================================================
+meta 总数                     : 7596
+  已是 hex                    : 1999   (另有包内资产 11416 个)
+  待补齐 XGUID                : 5597
+资产文件里扫描到的不同 GUID 引用 : 1725
+  补齐前无法兑现的引用(断链)    : 187
+  补齐后无法兑现的引用(断链)    : 187   <- 应与补齐前相同（这些是历史遗留断链，不属于本次问题）
+
+-- 断链引用按「发出引用的文件类型」分布 --
+   .scene                139
+   .asset                23
+   .unity                10
+   .prefab               8
+   .mat                  8
+   .terrainlayer         6
+   .lighting             1
+   .controller           1
+
+-- 其中波及你自己工程目录的断链: 165 条 --
+   0000000000000000d000000000000000
+      Assets\Scenes\Battle\Battle01\Battle01\Battle01.scene
+   0000000000000000e000000000000000
+      Assets\Plugins\Hovl Studio\Magic effects pack\Demo scene\Magic effects demo.unity
+   0000000000000000f000000000000000
+      Assets\Arts\Environment\Sky\M_SkyDay 1.mat
+   00259589bacb3ec45b2dee736d4268b2
+      Assets\Scenes\Persistent\Persistent.scene
+   02bfc9f2e7634a74bafb799a71098174
+      Assets\Scenes\Persistent\Persistent.scene
+   066ca7fa4d4fc7d41864e4e6e2f9125f
+      Assets\Scenes\Persistent\Persistent.scene
+   079af1b321b24da4cb19b64a9d95918d
+      Assets\Scenes\Persistent\Persistent.scene
+   07f29de24b429684ea02a5a9fb55e2e2
+      Assets\Scenes\Persistent\Persistent.scene
+   0d74bc88a2b0d584799f0019151c69d4
+      Assets\Martials\Terrains\Snow\Ice.terrainlayer
+   114bf10d966e8ea48b84e3035f99f0d8
+      Assets\Scenes\Persistent\Persistent.scene
+   11a85cc10b6e2414aa462812d9c57ac4
+      Assets\Scenes\Persistent\Persistent.scene
+   1205127b00011a04aaae7d9f6a06a3c9
+      Assets\Scenes\Town\Town01_Day\Town01_Day.unity
+   1337b44382f207e40a72ea95a565d8fb
+      Assets\Scenes\Persistent\Persistent.scene
+   13cb926691f6bb649809cfd41f9448b9
+      Assets\Scenes\Persistent\Persistent.scene
+   142739da4aaf09941931c4e90137ed5b
+      Assets\Scenes\Battle\Battle03\Battle03.scene
+   15a4059a4fa5f8c4ebe48845929e2115
+      Assets\Scenes\Battle\Battle02\Battle02.scene
+   15fc28008fafa2547b373bd364884a27
+      Assets\Scenes\Persistent\Persistent.scene
+   1668d0923ddc78a40b9849fa793c6c9f
+      Assets\Scenes\Persistent\Persistent.scene
+   191e0a15a014da44c89d930556735487
+      Assets\Scenes\Battle\Battle01\Battle01\Battle01.scene
+   1da922453a61cc44a8ce5b28fad0035c
+      Assets\Scenes\Menu\Menu.scene
+
+-- 前 10 条补齐示例 --
+   Assets\AddressableAssetsData.meta
+      XXpMtXv/VHmzPULdd/3m4gl0EZ+9h0KUGeML8KOfCttCPARnKuAeaB0=
+   -> 8ce20e571348f1c0c3d7f5f3e1ad7873
+   Assets\Environment.meta
+      DylM43ylAC2zT2Fa/r/9gwIu8vvxxo7VzadxXyGGPYsm/UuTS4yQeDY=
+   -> 95749d61dc0cefbc7fe5275108cf6c88
+   Assets\Game Data.meta
+      CH8W4y/7UnJZXRyrNrGkwxEcBpRhWR7Qm1fodrB1L5Lotj4ehTLbjUQ=
+   -> 14e36c34e15b58c6722f831f158a33d9
+   Assets\Martials.meta
+      DSsWsyquBXpcaWF8aEWjw7oYkuurfClUiY/si/WEX63+6QUa0L2elN8=
+   -> c1a503f390c471b7d6d440fa05820a3d
+   Assets\Newly-battle-idle-hp-normal.anim.meta
+      Dy4b5iilVXLLo9ol6Hu5ZnrFMan52SG1itkoFWCo/y94MCcMghHxqF4=
+   -> de70e51a9834fad3236f81b94fcd2f06
+   Assets\Newly-Enemy-Battle.overrideController.meta
+      XCwZtnj/U3lBmLYGzpjTYjiBR3J+Aa0GNnceJiOOHb0rZ8XUNCWBI+U=
+   -> 8acc992027e3a5fc510e335fab2f1446
+   Assets\Plugins.meta
+      Cy9KvCmuWnkAMCXhyNgtx+cNNpIvLguX8hYsD8um8IWDfulfi2xF3qU=
+   -> 886b0284875e7fcb3f65160290486237
+   Assets\PostProcess.meta
+      CS4WvCqpUH3HXs+uOUMH48B9HaE6VZz+yWzrmzKbsSly2nM8d1NVIPU=
+   -> 6db60df7e2bb63a83a0d70b0f927f66c
+   Assets\Prefabs.meta
+      Cy5LvXmpUHqrQkZAUQP9Tl6HAf9UGnqf8CYglX1+PB5YGl6kK718Kr4=
+   -> d6ee56da06e8c0e60fa92723bc477664
+   Assets\Resources.meta
+      WX1Mt3n8VCniup69uUVky7MK8jTp504+QyLQPFHBqG4QvZQaQdEzYxk=
+   -> d0fe64668997dc53fb49803337236fce

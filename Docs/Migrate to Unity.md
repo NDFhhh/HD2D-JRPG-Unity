@@ -73,19 +73,23 @@ git switch -c migrate/unity-2022
 1. 把 `Tools/MigrateToUnity/TuanjieGuidConverter.cs` 拷到工程的 `Assets/Editor/` 下；
 2. 打开团结引擎，菜单栏出现 `Tools/迁移到Unity`，依次执行：
    - `1 - 体检` → 先记录基线（XGUID 数量、断链数）
-   - `2 - 把 .meta 的 GUID 归一化为 Unity 32 位 hex`
+   - `2 - 把 .meta 的 GUID 归一化为 Unity 32 位 hex` ← **必须全量，一个 XGUID 都不能留**
    - `3 - 修正 YAML 的 %TAG 命名空间`
-   - `4 - 验收：列出所有仍然断链的引用` ← **这一步是成败判据**
-3. 验收标准：断链数从 ~436 掉到"几十个以内"，且剩下的都是第三方特效包内部的历史断链和 Unity 内置资源占位 GUID（`0000...f000...`）。
-4. 若菜单 4 显示断链数**没有下降**，说明引擎 API 返回的是另一个变体：把每个 hex 做一次"每字节高低半字节互换"再重跑菜单 2 即可（工具注释里写了）。
+   - `4 - 把 .scene 场景改名为 .unity` ← 团结场景后缀 Unity 不认
+   - `5 - 验收：列出所有仍然断链的引用` ← **这一步是成败判据**
+3. 验收标准：断链数掉到"几十个以内"，且剩下的都是第三方特效包内部的历史断链和 Unity 内置资源占位 GUID（`0000...f000...`）。
+4. 若菜单 5 显示断链数**没有下降**，说明引擎 API 返回的是另一个变体：把每个 hex 做一次"每字节高低半字节互换"再重跑菜单 2 即可（工具注释里写了）。
 
-**方案 B（离线·不用开团结）**
+**方案 B（离线·不用开团结，⚠️ 会漏）**
 ```bash
 python Tools/MigrateToUnity/tuanjie_guid_normalize.py            # 只看报告，不动文件
 python Tools/MigrateToUnity/tuanjie_guid_normalize.py --convert --fix-tag
 ```
 这套算法**不用猜**：它从 `Library/SourceAssetDB` 反推真实 GUID，再用"YAML 里确实有人在引用这个 GUID"作为反向佐证，只改写能被唯一确定的资产，其余全部跳过并写进清单。
-本次实测：**可确定修复 411 个资产，断链 436 → 25**，且剩下 25 个里只有 2 处落在自研目录（`Assets/Prefabs/VFX/fire_red.prefab`、`Town01_Day.unity`），而这 2 处**在迁移前就已经是断的了**（历史遗留的失效引用）。
+本次实测：可确定修复 411 个资产，断链 436 → 25。
+
+> ⚠️ **但方案 B 有严重缺陷（2026-10-16 实际踩到）**：剩下 5485 个未被引用的资产保持 XGUID，而 **Unity 会直接忽略这些资产**（文件夹不可见、脚本不参与编译）。同时它只扫了 10 种 YAML 后缀，**漏掉了 `.scene` 场景文件**，导致 139 处"只被场景引用"的引用没被覆盖。**不要只用方案 B 就切 Unity**，必须配合路线 A 或 `fix_remaining_guids.py` 收尾（见第 5 章）。
+> 另外，一旦 Unity 打开过工程，`Library/SourceAssetDB` 就被 Unity 重写，方案 B 赖以反推的团结数据库就没了 —— **要么先备份 Library，要么直接走路线 A**。
 
 **方案 C（官方渠道）**
 如果你的团队有团结引擎的支持渠道，直接向官方索取 GUID/FileID 互转工具或"格式兼容"选项——这是最省事的路子。
@@ -169,18 +173,106 @@ git push -u origin migrate/unity-2022
 
 ---
 
-## 5. 风险与工作量
+## 5. 第二轮：Project 面板少了很多文件夹 / 全局 using 失效（2026-10-16 补充）
+
+### 症状与根因
+
+用户反馈两个现象：
+
+1. Project 面板里只剩 `Animation` / `Arts` / `Settings` / `TextMesh Pro` / `csc.rsp`，其余文件夹在资源管理器里明明存在；
+2. `DialoguePanelController.cs` 里 `MonoBehaviour` 报红，全局 using（`GlobalUsing.cs`）像没生效。
+
+**这两个是同一个根因**：上一轮只归一化了 411 个"被 YAML 引用佐证"的资产，剩下 **5597 个 `.meta` 仍是团结 XGUID 格式**。
+
+而标准 Unity 的行为不是"给非法 GUID 的资产重新分配 GUID"，而是**直接忽略这个资产**——不进 Project 面板、不参与导入、不参与脚本编译。于是：
+
+| 现象 | 直接原因 |
+|---|---|
+| 10 个一级文件夹消失 | 这些文件夹的 `.meta` 仍是 XGUID（`Animation`/`Arts`/`Settings`/`TextMesh Pro` 恰好是 hex 的，所以只剩它们可见） |
+| `MonoBehaviour` 报红 | `Assets/Scripts` 文件夹没被导入 → `Assets/Scripts/Utility/GlobalUsing.cs` 没参与编译 → 全项目的 `global using UnityEngine;` 失效 |
+| 资源管理器里文件都在 | Unity 只是没导入，**没有删任何文件**，meta 也原样保留 |
+
+实测证据：
+- 当前 meta 分布 `56 位 XGUID: 5597 / 32 位 hex: 1999`；
+- 可见的文件夹与"meta 是 hex"的文件夹**完全一一对应**；
+- `Assets/Scripts/Battle/Config/BattleCinematicConfig_SO.cs.meta` 已变成 hex（它在 411 个里），但同目录的 `GlobalUsing.cs.meta` 还是 XGUID → 后者没被编译。
+
+### 为什么第一轮会漏
+
+第一轮的工具出于"不误伤"的保守设计，只改写**能被 YAML 引用反向佐证**的资产（411 个），未被引用的 5485 个保持原样——当时的判断是"没被引用就不影响"。
+这个判断**在引用层面成立，在导入层面不成立**：Unity 宁可忽略资产，也不接受非法 guid。**正确做法是"全量归一化"，一个都不能留。**
+
+另外还发现了两个此前没纳入扫描的引用来源（导致 139 处引用一度没被发现）：
+
+- **场景后缀**：团结引擎的场景后缀是 **`.scene`**，标准 Unity 只认 **`.unity`**（官方文档："Unity 引擎使用 .unity 扩展名；Tuanjie 引擎使用 .scene 扩展名"）。本工程 9 个自研场景全部是 `.scene`（菜单/常驻/战斗/野外/地图），4 个第三方 Demo 才是 `.unity`。
+- **`ProjectSettings/`**：`EditorBuildSettings.asset`、`GraphicsSettings.asset`、`QualitySettings.asset` 也在用 guid 引用工程资产（其中 URP 资产恰好已是 hex，渲染管线没受影响）。
+
+### 修复路线
+
+#### 路线 A（推荐·无损）：回团结引擎做一次全量转换
+
+本机已装团结 **2022.3.62t12**（`D:\Unity\2022.3.62t12\Editor\Tuanjie.exe`，正是本工程原本的版本），所以可以无损修复：
+
+1. **关闭 Unity**（确认进程退干净）。
+2. 切换工程版本（脚本会自动备份并挪走 `packages-lock.json`）：
+   ```bash
+   python Tools/MigrateToUnity/switch_engine.py --tuanjie
+   ```
+   等价于把 `ProjectSettings/ProjectVersion.txt` 手工恢复成团结那版（即 commit `f317c0c` 的内容）：
+   ```
+   m_EditorVersion: 2022.3.62t12
+   m_EditorVersionWithRevision: 2022.3.62t12 (ab02e98c9779)
+   m_TuanjieEditorVersion: 1.10.0
+   ```
+3. 用 Tuanjie Hub 打开工程（**首次会全量重建导入，慢，耐心等**）。转换脚本已经放好在 `Assets/Editor/TuanjieGuidConverter.cs`。
+4. 菜单 `Tools/迁移到Unity` 依次执行：
+   - `1 体检` → 记录基线（此时应报 XGUID 5597 个）
+   - `2 全量归一化 GUID` → 核心步骤，跳过已是 hex 的，把剩余 5597 个全部用引擎自己的 `AssetDatabase.AssetPathToGUID` 写回真实 GUID
+   - `3 把 .scene 场景改名为 .unity` → 用 `AssetDatabase.MoveAsset`，**GUID 与所有引用保持不变**
+   - `4 修正 YAML 的 %TAG 命名空间` → 放最后，避免被引擎重新写回
+   - `5 验收` → 断链数应降到"几十个以内"（剩下的都是第三方插件内部 + Unity 内置占位 GUID）
+5. 关闭团结，切回 Unity 并做最终校验：
+   ```bash
+   python Tools/MigrateToUnity/switch_engine.py --unity
+   python Tools/MigrateToUnity/tuanjie_guid_normalize.py     # 交叉验证引用健康度
+   ```
+   之后用 Unity Hub 打开工程。
+6. 打开 Unity 后确认：Project 面板文件夹全部回来、`Assets/Scripts` 参与编译、Console 无编译错误。最后把 `Assets/Editor/TuanjieGuidConverter.cs` 与 `Tools/MigrateToUnity/` 删掉或留着都行。
+
+> 为什么非得回团结：`.meta` 里的 XGUID 是 base64 **加密**格式（官方原话"为了与 Unity 彻底割裂而设计"），实测穷举"字节/半字节/位反转/固定 XOR 掩码"都推不出真实 GUID——**真实 GUID 只存在于团结的资产数据库里**。而 Unity 打开工程时已经把 `Library/SourceAssetDB` 重写掉了，离线反推的路已经断了。
+
+#### 路线 B（快·有损）：直接给剩余 meta 分配新的唯一 GUID
+
+```bash
+python Tools/MigrateToUnity/fix_remaining_guids.py            # 试运行，看报告
+python Tools/MigrateToUnity/fix_remaining_guids.py --apply    # 真正写
+```
+
+- 未归一化的 5597 个资产**绝大部分没有任何引用指向它们**，随便给个唯一 GUID 完全无害 → 文件夹立刻可见、脚本立刻参与编译。
+- **代价**：约 **139 处"只被场景文件引用"的引用会永久丢失**（示例：`Assets/Scenes/Persistent/Persistent.scene`、`Battle01.scene` 等引用的一批资产），打开场景会出现 Missing，需要手工重连。因为这些 GUID 对应的真实资产无法再确定，**做了这一步就再也回不去路线 A**。
+- 脚本自带保护：断链数必须与补齐前完全一致，否则拒绝执行；新 GUID 绝不占用任何被引用过的 GUID。
+
+### 顺带确认的两件事
+
+- `Assets/csc.rsp` 内容为 `-langversion:10.0`。Unity 2022.3.62 系列**编译侧支持**（社区已有同版本 2022.3.62f3c1 的实践），所以 Unity 编译不会报 CS1617。若 IDE 里仍报红，那是 Unity 生成的 `.csproj` 里 `<LangVersion>9.0</LangVersion>` 导致的（Unity 与 IDE 的语言版本不同步），与本次迁移无关，可用 CsprojModifier 或改写 csproj 解决。
+- `Assets/Resources/DOTweenSettings.asset.meta` 的 guid 已被 Unity 换成新值（`557ab6fb...`）。该资产走 `Resources.Load` 加载，不依赖 GUID，无需处理。
+
+
+
+## 6. 风险与工作量
 
 | 风险 | 严重度 | 应对 |
 |---|---|---|
+| **只归一化"被引用的资产"→ 大量文件夹在 Unity 里不可见、脚本不参与编译** | **高（本次已踩）** | **必须全量归一化，一个 XGUID 都不能留**；用路线 A 或 B |
+| **团结场景后缀 `.scene`，Unity 不认** | **高（本次已踩）** | 菜单 4 一键改名 `.unity`（保留 GUID） |
 | GUID 归一化写错变体 → 引用依旧断 | 高 | 用"验收菜单 / 体检脚本"立刻能看出来；git 可回滚 |
 | 少量历史遗留断链（本工程已知 2 处） | 低 | 迁移后在 Unity 里手动 Reassign |
-| URP 14.2.0-t1 → 14.0.11 的 shader 差异 | 中 | 迁移后逐一检查材质，尤其 Toony Colors Pro / KinoBloom / 水体 shader |
+| URP 14.2.0-t1 → 14.0.12 的 shader 差异 | 中 | 迁移后逐一检查材质，尤其 Toony Colors Pro / KinoBloom / 水体 shader |
 | Input System 降级导致的输入配置差异 | 低 | 重设 `Active Input Handling` 与 Input Actions Asset |
 | Addressables 分组/模板断链 | 低 | 迁移后 Build 一次，报错就重新指定模板 |
 | 丢失微信小游戏 / 鸿蒙等团结特有管线 | 中 | 如果这是刚需，需要重新评估是否真要迁回 Unity |
 
-**工作量预估**：归一化 + 配置约 1–2 小时；Unity 首次导入 + 验收半天。**代码本身预计 0 行改动。**
+**工作量预估**：全量归一化 + 配置约 1–2 小时（团结首次全量导入另需等待）；Unity 首次导入 + 验收半天。**代码本身预计 0 行改动。**
 
 ---
 
@@ -188,7 +280,10 @@ git push -u origin migrate/unity-2022
 
 | 文件 | 用途 |
 |---|---|
-| `Tools/MigrateToUnity/TuanjieGuidConverter.cs` | 在团结引擎内执行的转换器（体检 / 归一化 / 修 %TAG / 验收 四个菜单） |
-| `Tools/MigrateToUnity/tuanjie_guid_normalize.py` | 离线体检 + 归一化工具（带 dry-run、报告、映射表导出） |
-| `Tools/MigrateToUnity/guid_report.txt` | 本次体检报告（已在当前工程上跑过） |
-| `Tools/MigrateToUnity/guid_report_mapping.tsv` | 可确定归一化的「资产路径 → 原 GUID → 新 GUID」对照表（411 条） |
+| `Tools/MigrateToUnity/TuanjieGuidConverter.cs` | 在团结引擎内执行的转换器（0 导出对照表 / 1 体检 / 2 全量归一化 / 3 场景改名 / 4 修 %TAG / 5 验收）；已拷一份到 `Assets/Editor/` 备用 |
+| `Tools/MigrateToUnity/switch_engine.py` | 团结 ↔ Unity 版本切换助手（改写 ProjectVersion、挪走 packages-lock） |
+| `Tools/MigrateToUnity/tuanjie_guid_normalize.py` | 离线体检 + 归一化工具（带 dry-run、报告、映射表导出；⚠️ 只覆盖被引用的资产） |
+| `Tools/MigrateToUnity/fix_remaining_guids.py` | 补齐剩余 XGUID 为唯一新 GUID（路线 B 用；含断链来源分布报告，默认 dry-run） |
+| `Tools/MigrateToUnity/guid_report.txt` | 第一轮体检报告 |
+| `Tools/MigrateToUnity/guid_report_mapping.tsv` | 第一轮可确定归一化的「资产路径 → 原 GUID → 新 GUID」对照表（411 条） |
+| `Tools/MigrateToUnity/fix_guids_report.txt` | 第二轮体检报告（剩余 5597 个 XGUID 与断链来源分布） |

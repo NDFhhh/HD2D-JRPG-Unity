@@ -1,7 +1,15 @@
 // TuanjieGuidConverter.cs —— 在【团结引擎】里运行，把资产身份归一化成 Unity 能认的格式。
 //
 // 用法：把本文件放到工程的 Assets/Editor/ 下，团结引擎编译后在菜单栏出现 "Tools/迁移到Unity"。
-//       按 1 -> 2 -> 3 顺序执行，最后按 4 验收。迁移完成后删除本文件。
+//       按 1 -> 2 -> 3 -> 4 顺序执行，最后按 5 验收。迁移完成后删除本文件。
+//
+//       菜单含义：
+//         0 导出「资产路径 -> 真实GUID」对照表      （可选，便于离线核对）
+//         1 体检：统计 XGUID 数量与引用健康度        （先跑，记录基线）
+//         2 把 .meta 的 GUID 归一化为 Unity 32 位 hex（核心步骤，必须全量执行）
+//         3 把 .scene 场景改名为 .unity               （团结场景后缀 Unity 不认）
+//         4 修正 YAML 的 %TAG 命名空间               （放在最后，避免被引擎重新写回）
+//         5 验收：列出所有仍然断链的引用
 //
 // 为什么需要它：团结引擎 1.x 把 .meta 里的 guid 写成了 56 位 base64（XGUID）格式，
 // 标准 Unity 不认，会给资产重新分配 GUID，导致场景/prefab/SO 里的引用全部断链。
@@ -21,8 +29,26 @@ public static class TuanjieGuidConverter
     static readonly Regex GuidLine = new Regex(@"^guid:\s*(\S+)", RegexOptions.Multiline);
     static readonly Regex YamlTag = new Regex(@"%TAG !u! tag:yousandi\.cn,2023:");
     static readonly Regex RefGuid = new Regex(@"guid: ([0-9a-f]{32})");
-    static readonly string[] YamlExt = { ".unity", ".prefab", ".asset", ".controller", ".mat",
-                                         ".playable", ".anim", ".overrideController", ".lighting", ".preset" };
+    static readonly string[] YamlExt = { ".unity", ".scene", ".prefab", ".asset", ".controller", ".mat",
+                                         ".playable", ".anim", ".overrideController", ".lighting", ".preset",
+                                         ".terrainlayer" };
+
+    [MenuItem("Tools/迁移到Unity/0 - 导出「资产路径 -> 真实GUID」对照表（可选，便于事后核对）")]
+    public static void ExportGuidMap()
+    {
+        var sb = new StringBuilder();
+        int n = 0;
+        foreach (var p in AssetDatabase.GetAllAssetPaths())
+        {
+            if (!p.StartsWith("Assets/")) continue;
+            var g = AssetDatabase.AssetPathToGUID(p);
+            if (string.IsNullOrEmpty(g)) continue;
+            sb.AppendLine(p + "\t" + g);
+            n++;
+        }
+        File.WriteAllText("guid_map.tsv", sb.ToString());
+        Debug.Log($"[导出] {n} 条「路径 -> GUID」已写入工程根目录 guid_map.tsv");
+    }
 
     [MenuItem("Tools/迁移到Unity/1 - 体检：统计 XGUID 与引用健康度")]
     public static void Diagnose()
@@ -91,7 +117,7 @@ public static class TuanjieGuidConverter
                   $"请接着执行菜单 3，然后执行菜单 4 验收。日志: {LogPath}");
     }
 
-    [MenuItem("Tools/迁移到Unity/3 - 修正 YAML 的 %TAG 命名空间")]
+    [MenuItem("Tools/迁移到Unity/3 - 把 .scene 场景改名为 .unity（保持 GUID）")]
     public static void FixTag()
     {
         int n = 0;
@@ -107,7 +133,26 @@ public static class TuanjieGuidConverter
         Debug.Log($"[%TAG 修正] 处理 {n} 个 YAML 文件");
     }
 
-    [MenuItem("Tools/迁移到Unity/4 - 验收：列出所有仍然断链的引用")]
+    [MenuItem("Tools/迁移到Unity/4 - 修正 YAML 的 %TAG 命名空间")]
+    public static void RenameScenes()
+    {
+        // 团结引擎的场景后缀是 .scene，标准 Unity 只认 .unity，不改名 Unity 不会把它当场景。
+        // 用 MoveAsset 改名会保留 .meta 与 GUID，所有引用都不会断。
+        int n = 0, fail = 0;
+        foreach (var p in AssetDatabase.GetAllAssetPaths())
+        {
+            if (!p.EndsWith(".scene")) continue;
+            var dst = p.Substring(0, p.Length - ".scene".Length) + ".unity";
+            var err = AssetDatabase.MoveAsset(p, dst);
+            if (string.IsNullOrEmpty(err)) { n++; Debug.Log("改名: " + p + " -> " + dst); }
+            else { fail++; Debug.LogError("改名失败 " + p + " : " + err); }
+        }
+        AssetDatabase.Refresh();
+        Debug.Log($"[场景改名] 成功 {n} 个，失败 {fail} 个。\n" +
+                  $"若 Project Settings > Build Settings 里仍显示旧路径，重新 Add Open Scenes 即可（工程实际是用 Addressables 按地址加载，不依赖这里）。");
+    }
+
+    [MenuItem("Tools/迁移到Unity/5 - 验收：列出所有仍然断链的引用")]
     public static void VerifyMenu()
     {
         var (refs, missing) = Verify();

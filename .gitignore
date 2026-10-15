@@ -51,3 +51,10 @@ Assets/AddressableAssetsData/*.hash
 # ===========================
 .DS_Store
 Thumbs.db
+
+# ===========================
+# 迁移到 Unity 期间：引擎切换脚本产生的备份
+# ===========================
+*.bak
+*.unity-bak
+Tools/MigrateToUnity/__pycache__/

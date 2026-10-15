@@ -1,0 +1,72 @@
+# =============================================================================
+# Unity / 团结引擎 工程 —— 换行与文本规范化规则
+#
+# 目的：Unity 的 YAML 资产（*.meta / *.unity / *.prefab ...）内部使用 LF 换行，
+#       若让 git 做 CRLF 转换，会导致 Unity 解析失败、meta 被判定损坏、
+#       甚至引发一次"全量重新导入"。因此对这类文件一律禁止任何转换（-text）。
+#
+# 注意：本文件只约束【今后的写入行为】，不会改写已有文件内容。
+# =============================================================================
+
+# ---- Unity 资产：禁止文本/换行转换 ----
+*.meta               -text
+*.unity              -text
+*.scene              -text
+*.prefab             -text
+*.asset              -text
+*.mat                -text
+*.anim               -text
+*.controller         -text
+*.overrideController -text
+*.playable           -text
+*.lighting           -text
+*.preset             -text
+*.mixer              -text
+*.guiskin            -text
+*.fontsettings       -text
+*.mask               -text
+*.shadervariants     -text
+*.spriteatlas        -text
+*.terrainlayer       -text
+*.physicMaterial     -text
+*.physicsMaterial2D  -text
+*.asmdef             -text
+*.asmref             -text
+*.rsp                -text
+
+# ---- 二进制资产：禁止 diff 与转换 ----
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.tga   binary
+*.psd   binary
+*.exr   binary
+*.tif   binary
+*.fbx   binary
+*.obj   binary
+*.blend binary
+*.dll   binary
+*.so    binary
+*.a     binary
+*.bundle binary
+*.wav   binary
+*.mp3   binary
+*.ogg   binary
+*.mp4   binary
+*.mov   binary
+*.ttf   binary
+*.otf   binary
+*.pdf   binary
+*.unitypackage binary
+
+# ---- 文本文件：显式声明为文本，但不强制改换行（避免一次性大 diff）----
+*.cs      text
+*.shader  text
+*.hlsl    text
+*.cginc   text
+*.compute text
+*.json    text
+*.xml     text
+*.yml     text
+.gitignore text
+.gitattributes text
