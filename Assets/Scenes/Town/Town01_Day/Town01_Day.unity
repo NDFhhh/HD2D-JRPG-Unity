@@ -1118,7 +1118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &37318521
 Transform:
   m_ObjectHideFlags: 0
@@ -23166,6 +23166,8 @@ GameObject:
   - component: {fileID: 614721806}
   - component: {fileID: 614721805}
   - component: {fileID: 614721804}
+  - component: {fileID: 614721812}
+  - component: {fileID: 614721813}
   m_Layer: 0
   m_HasEditorInfo: 1
   m_Name: Hajimi
@@ -23358,6 +23360,48 @@ Transform:
   - {fileID: 124942078}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &614721812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614721803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14e9d6f8c1e4f5a6b7d2e3f4a5b6c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MatchJob: 0
+  CommandInfo:
+    DisplayName: "\u5BF9\u8BDD"
+    Icon: {fileID: 21300000, guid: 8bbfea230daaa4c6d81a59e62eb3dd4e, type: 3}
+    Order: -1
+  dialogue: {fileID: 11400000, guid: e47b2a9c1f4b4c8d9e0a5b6c7d8e9f01, type: 2}
+--- !u!114 &614721813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614721803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8cd1d5c28d86bc47b1de6473ea502fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MatchJob: 0
+  CommandInfo:
+    DisplayName: "\u5077\u7A83"
+    Icon: {fileID: 21300000, guid: 0b2ab670df29649b6b2c801c55abb9ec, type: 3}
+    Order: 0
+  itemsToSteal:
+  - ItemDefinition: {fileID: 11400000, guid: 9645cd6497055954a90d8978aa05ed43, type: 2}
+    Quantity: 3
+  - ItemDefinition: {fileID: 11400000, guid: 28aaa9593fd101748975cc2b5129cf27, type: 2}
+    Quantity: 3
+  - ItemDefinition: {fileID: 11400000, guid: d2992d1df4e453242ba3d7a14fcd298f, type: 2}
+    Quantity: 1
 --- !u!1001 &617081150
 PrefabInstance:
   m_ObjectHideFlags: 0
