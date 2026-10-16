@@ -6,6 +6,8 @@
 public class Speaker_SO : ScriptableObject
 {
     [Header("显示信息")]
+    [Tooltip("Yarn 脚本里的说话人标识（即 CharacterName，如 traveller）。留空则回落到资产文件名")]
+    public string Id;
     public string SpeakerName = "???";
 
     [Tooltip("姓名牌文字颜色，默认为歧路旅人风格的金色")]

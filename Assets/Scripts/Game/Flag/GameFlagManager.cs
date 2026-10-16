@@ -38,6 +38,13 @@ public class GameFlagManager : Singleton<GameFlagManager>
 
     public bool IsTrue(string key) => Get(key) != 0;
 
+    /// <summary>
+    /// 该 Key 是否被显式设置过（区别于"从未设置 → Get 返回 0"）。
+    /// Yarn 变量桥接靠它区分「Flag 里真有值」和「默认 0」，
+    /// 否则默认值会盖掉 Yarn 脚本 &lt;&lt;declare&gt;&gt; 声明的初始值。
+    /// </summary>
+    public bool Has(string key) => !string.IsNullOrEmpty(key) && _flags.ContainsKey(key);
+
     public void Set(string key, int value)
     {
         if (string.IsNullOrEmpty(key))

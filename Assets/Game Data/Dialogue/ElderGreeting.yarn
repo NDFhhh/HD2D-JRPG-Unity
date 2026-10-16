@@ -1,0 +1,39 @@
+// CodePath Traveler — 对话脚本（Yarn Spinner）
+//
+// 约定：
+// - 说话人写 Speaker Id（对应 Speaker_SO.Id），运行时由 DialogueSpeakerRegistry
+//   查回姓名颜色 / 立绘 / 打字机音效。留空则回落到资产名（如 Speaker_Traveller）。
+// - 变量沿用项目的 Flag 命名，经 GameFlagVariableStorage 与 GameFlagManager 双向同步，
+//   所以任务系统、FlagCondition 读到的就是同一份值。
+// - `<<evt 键名>>` 会广播 DialogueCustomEvent，是任务/剧情的挂接点。
+// - 富文本用 Yarn 的**方括号**标记，不是 Unity 的尖括号。
+//   注意：标记内不能出现 `#`（`#` 是 Yarn 的元数据分隔符，会把整行后半截文本吞掉），
+//   所以颜色写 6 位十六进制裸值，由 DialoguePanelController 补回 `#` 再交给 TMP。
+//   例：[color=E8C97A]晨风村[/color]
+
+title: Init
+---
+<<declare $met_elder = 0>>
+<<declare $elder_asked = 0>>
+===
+
+title: ElderGreetin
+tags: 
+position: -273,-8
+---
+<<if $met_elder == 1>>
+VillageElder: 又是你啊，旅人。山道上的魔物，就拜托你了。
+<<else>>
+VillageElder: 哦……外乡来的旅人吗？欢迎来到[color=E8C97A]晨风村[/color]。
+VillageElder: 最近山道上的魔物越来越猖狂，商队都不敢进村了。唉……
+-> 交给我吧。
+    <<set $elder_asked = 1>>
+    Traveller: 跟我说说具体情况。也许，我能帮上忙。
+    VillageElder: 真的吗？！那就拜托你了！魔物的巢穴，就在村子北边的山道深处。
+    <<set $met_elder = 1>>
+    <<evt quest_elder_intro>>
+-> 与我无关。
+    VillageElder: 这样啊……也是，不该给旅人添麻烦。一路顺风，愿圣火指引你。
+    <<set $met_elder = 1>>
+<<endif>>
+===

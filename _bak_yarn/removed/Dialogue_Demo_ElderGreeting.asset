@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c9f4e1a3d6f4a0b1c2e7f8a9b0c1d23, type: 3}
+  m_Name: Dialogue_Demo_ElderGreeting
+  m_EditorClassIdentifier:
+  StartNodeId: first_1
+  Entries:
+  - StartNodeId: return_greeting
+    Conditions:
+    - Key: met_elder
+      Op: 4
+      Value: 1
+  - StartNodeId: first_1
+    Conditions: []
+  Nodes:
+  - NodeId: return_greeting
+    Speaker: {fileID: 11400000, guid: c25f0e7a9d2f4a6b7c8e3f4a5b6c7d89, type: 2}
+    Text: "又是你啊，旅人。山道上的魔物，就拜托你了。"
+    NextNodeId:
+    Choices: []
+    Conditions: []
+    OnEnterOperations: []
+    OnEnterEventKey:
+  - NodeId: first_1
+    Speaker: {fileID: 11400000, guid: c25f0e7a9d2f4a6b7c8e3f4a5b6c7d89, type: 2}
+    Text: "哦……外乡来的旅人吗？欢迎来到<color=#E8C97A>晨风村</color>。"
+    NextNodeId: first_2
+    Choices: []
+    Conditions: []
+    OnEnterOperations: []
+    OnEnterEventKey:
+  - NodeId: first_2
+    Speaker: {fileID: 11400000, guid: c25f0e7a9d2f4a6b7c8e3f4a5b6c7d89, type: 2}
+    Text: "最近山道上的魔物越来越猖狂，商队都不敢进村了。唉……"
+    NextNodeId:
+    Choices:
+    - Text: "交给我吧。"
+      NextNodeId: accept_1
+      Conditions: []
+      OnSelectOperations:
+      - Key: elder_asked
+        Op: 0
+        Value: 1
+    - Text: "与我无关。"
+      NextNodeId: decline_1
+      Conditions: []
+      OnSelectOperations: []
+    Conditions: []
+    OnEnterOperations: []
+    OnEnterEventKey:
+  - NodeId: accept_1
+    Speaker: {fileID: 11400000, guid: d36a1f8b0e3a4b7c8d9f4a5b6c7d8e90, type: 2}
+    Text: "跟我说说具体情况。也许，我能帮上忙。"
+    NextNodeId: accept_2
+    Choices: []
+    Conditions: []
+    OnEnterOperations: []
+    OnEnterEventKey:
+  - NodeId: accept_2
+    Speaker: {fileID: 11400000, guid: c25f0e7a9d2f4a6b7c8e3f4a5b6c7d89, type: 2}
+    Text: "真的吗？！那就拜托你了！魔物的巢穴，就在村子北边的山道深处。"
+    NextNodeId:
+    Choices: []
+    Conditions: []
+    OnEnterOperations:
+    - Key: met_elder
+      Op: 0
+      Value: 1
+    OnEnterEventKey: quest_elder_intro
+  - NodeId: decline_1
+    Speaker: {fileID: 11400000, guid: c25f0e7a9d2f4a6b7c8e3f4a5b6c7d89, type: 2}
+    Text: "这样啊……也是，不该给旅人添麻烦。一路顺风，愿圣火指引你。"
+    NextNodeId:
+    Choices: []
+    Conditions: []
+    OnEnterOperations:
+    - Key: met_elder
+      Op: 0
+      Value: 1
+    OnEnterEventKey:

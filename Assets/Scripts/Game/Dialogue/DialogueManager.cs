@@ -1,15 +1,19 @@
 using MFramework.Event;
 using TMPro;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
+using Yarn.Unity;
 
 /// <summary>
 /// 对话系统总入口（自动生成的常驻单例，无需手动挂场景）。
+/// 底层换成 **Yarn Spinner** 驱动，对外接口保持一行代码播放一段对话。
 ///
-/// 用法：<see cref="Play"/> 一行代码播放一段对话。
+/// 用法：<see cref="Play"/> 传入 Yarn 脚本里的**节点名**即可。
 /// 职责：
-/// - 持有 <see cref="DialogueRunner"/>（逻辑）与 <see cref="DialoguePanelController"/>（表现）；
+/// - 装配并持有 Yarn <c>DialogueRunner</c>，接上 <see cref="GameFlagVariableStorage"/>
+///   （变量桥接到既有 GameFlagManager）与 <see cref="DialoguePanelController"/>（表现层）；
 /// - 播放期间把游戏模式切到 InteractionMenu（激活 UI 输入图、冻结玩家移动），结束后恢复；
 /// - 广播 <see cref="DialogueStartedEvent"/> / <see cref="DialogueEndedEvent"/>。
 /// </summary>
@@ -24,18 +28,31 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
     /// <summary>
     /// 全局指定对话面板预制体（用你自己的美术资产在编辑器搭好的 prefab，
     /// 根物体挂 DialoguePanelController 并拖好引用）。
-    /// 不设置时自动查找场景中已摆放的面板；都没有才生成占位 UI。
+    /// 不设置时自动查找场景中已摆放的面板；都没有则报错。
     /// 在任意启动脚本的 Awake/Start 里赋值即可，例如：
     /// DialogueManager.PanelPrefab = myPanelPrefab;
     /// </summary>
     public static DialoguePanelController PanelPrefab;
 
-    /// <summary>当前是否有对话正在播放</summary>
-    public static bool IsPlaying => Instance is not null && Instance._runner is { IsRunning: true };
+    /// <summary>
+    /// Yarn 对话项目资产（.yarnproject）。在任意启动脚本里赋值即可，例如：
+    /// DialogueManager.Project = myYarnProject;
+    /// 不设置时会尝试 Resources.Load 兜底。
+    /// </summary>
+    public static YarnProject Project;
 
-    private DialogueRunner _runner;
+    /// <summary>Resources 兜底路径：把 .yarnproject 放进 Assets/Resources/ 即可零配置加载</summary>
+    public const string ProjectResourcePath = "Dialogue";
+
+    /// <summary>当前是否有对话正在播放</summary>
+    public static bool IsPlaying
+        => Instance is not null && Instance._runner is not null && Instance._runner.IsDialogueRunning;
+
+    private Yarn.Unity.DialogueRunner _runner;
     private DialoguePanelController _panel;
-    private DialogueAsset_SO _currentAsset;
+    private GameFlagVariableStorage _storage;
+    private string _currentNode;
+    private bool _dialogueCompleteHooked;
 
     /// <summary>
     /// 本次对话是否由我们切换了游戏模式。
@@ -66,12 +83,8 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
 
         DontDestroyOnLoad(gameObject);
 
-        _runner = new DialogueRunner();
-        _runner.DialogueEnded += HandleDialogueEnded;
-
         BuildUI();
-        if (_panel is not null)
-            _panel.Bind(_runner);
+        BuildRunner();
 
         EventBus.Subscribe<GameModeChangedEvent>(this);
     }
@@ -80,6 +93,8 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
     {
         EventBus.Unsubscribe<GameModeChangedEvent>(this);
     }
+
+    #region 装配
 
     private void BuildUI()
     {
@@ -105,10 +120,7 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
 
         _panel = ResolvePanel(canvasGo.transform);
         if (_panel is null)
-        {
             Debug.LogError("[DialogueManager] 对话面板初始化失败：未找到可用面板");
-            return;
-        }
     }
 
     /// <summary>
@@ -136,30 +148,97 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
         return null;
     }
 
+    /// <summary>装配 Yarn 的 DialogueRunner、变量存储与表现器</summary>
+    private void BuildRunner()
+    {
+        _runner = gameObject.GetComponent<Yarn.Unity.DialogueRunner>();
+        if (_runner is null)
+            _runner = gameObject.AddComponent<Yarn.Unity.DialogueRunner>();
+
+        // 变量存储桥接：Yarn 的 $var ↔ GameFlagManager
+        _storage = gameObject.GetComponent<GameFlagVariableStorage>();
+        if (_storage is null)
+            _storage = gameObject.AddComponent<GameFlagVariableStorage>();
+        _runner.VariableStorage = _storage;
+
+        // 表现器：我们的 UI 面板
+        if (_panel is not null)
+            _runner.DialoguePresenters = new DialoguePresenterBase[] { _panel };
+
+        if (!_dialogueCompleteHooked)
+        {
+            if (_runner.onDialogueComplete is not null)
+                _runner.onDialogueComplete.AddListener(HandleDialogueComplete);
+            _dialogueCompleteHooked = true;
+        }
+
+        // Yarn 命令桥接：脚本里写 <<evt quest_started>> 即广播 DialogueCustomEvent。
+        // 与旧 DialogueNode.OnEnterEventKey 是同一个挂接点，任务/剧情系统零改动。
+        _runner.AddCommandHandler("evt", (System.Action<string>)HandleDialogueEventCommand);
+    }
+
+    /// <summary>Yarn 的 <c>&lt;&lt;evt key&gt;&gt;</c> 命令 → EventBus 广播</summary>
+    private static void HandleDialogueEventCommand(string key)
+    {
+        if (string.IsNullOrEmpty(key))
+            return;
+        EventBus.Publish(new DialogueCustomEvent(key));
+    }
+
+    /// <summary>确保 YarnProject 已就位（可由启动脚本晚于 Awake 赋值，故每次播放前兜底）</summary>
+    private bool EnsureProject()
+    {
+        if (_runner.YarnProject is not null)
+            return true;
+
+        YarnProject project = Project;
+        if (project is null)
+        {
+            project = Resources.Load<YarnProject>(ProjectResourcePath);
+            Project = project;
+        }
+
+        if (project is null)
+        {
+            Debug.LogError("[DialogueManager] 未找到 YarnProject。请在本机 Unity 里创建 .yarnproject，" +
+                           "然后二选一：① 在启动脚本里赋值 DialogueManager.Project；" +
+                           $"② 放到 Assets/Resources/{ProjectResourcePath}.yarnproject");
+            return false;
+        }
+
+        _runner.SetProject(project);
+        return true;
+    }
+
+    #endregion
+
     #region 播放控制
 
-    /// <summary>播放一段对话。已有对话进行中时会被忽略。</summary>
-    public static void Play(DialogueAsset_SO asset)
+    /// <summary>播放一段对话。参数是 Yarn 脚本里的节点名（如 "ElderGreeting"）。</summary>
+    public static void Play(string nodeName)
     {
-        if (asset is null)
+        if (string.IsNullOrEmpty(nodeName))
         {
-            Debug.LogWarning("[DialogueManager] 播放失败：对话资产为空");
+            Debug.LogWarning("[DialogueManager] 播放失败：节点名为空");
             return;
         }
 
         DialogueManager manager = EnsureInstance();
-        if (manager._runner.IsRunning)
+        if (IsPlaying)
         {
-            Debug.LogWarning($"[DialogueManager] 已有对话进行中，忽略本次播放：{asset.name}");
+            Debug.LogWarning($"[DialogueManager] 已有对话进行中，忽略本次播放：{nodeName}");
             return;
         }
 
-        manager.BeginDialogue(asset);
+        manager.BeginDialogue(nodeName);
     }
 
-    private void BeginDialogue(DialogueAsset_SO asset)
+    private void BeginDialogue(string nodeName)
     {
-        _currentAsset = asset;
+        if (!EnsureProject())
+            return;
+
+        _currentNode = nodeName;
 
         // 切到 UI 输入图：冻结玩家移动、激活 Submit/Cancel。
         // 战斗与暂停模式下不切换（战斗内对话不能打断战斗模式）。
@@ -174,27 +253,46 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
             }
         }
 
-        EventBus.Publish(new DialogueStartedEvent(asset));
-        _panel.Open();
-        StartCoroutine(BeginTypingAfterPanelReady(asset));
+        EventBus.Publish(new DialogueStartedEvent(nodeName));
+        StartDialogueAsync(nodeName);
     }
 
     /// <summary>
-    /// 等面板激活并完成一帧渲染后再启动状态机。
-    /// 若在 Open()（SetActive 触发 TMP 首帧布局）同一帧就同步 Start，
-    /// 面板的 TextMeshPro 尚未完成布局，打字机读到错误字符数会一次性全显。
+    /// Yarn 的 StartDialogue 是异步的（YarnTask），这里 fire-and-forget。
+    /// 用 async void + try/catch 保证异常不会静默吞掉，失败时也走一遍收尾。
     /// </summary>
-    private IEnumerator BeginTypingAfterPanelReady(DialogueAsset_SO asset)
+    private async void StartDialogueAsync(string nodeName)
     {
-        yield return null;
-        _runner.Start(asset);
+        try
+        {
+            await _runner.StartDialogue(nodeName);
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"[DialogueManager] 播放对话 '{nodeName}' 失败：{e}");
+            HandleDialogueComplete();
+        }
     }
 
-    private void HandleDialogueEnded()
+    /// <summary>把玩家的推进输入翻译成 Yarn 语义：打字中 → 加速补全全文；否则 → 下一句</summary>
+    public static void RequestAdvance(bool isTyping)
     {
-        _panel.Close();
-        EventBus.Publish(new DialogueEndedEvent(_currentAsset));
-        _currentAsset = null;
+        DialogueManager manager = Instance;
+        if (manager is null || manager._runner is null)
+            return;
+        if (!manager._runner.IsDialogueRunning)
+            return;
+
+        if (isTyping)
+            manager._runner.RequestHurryUpLine();
+        else
+            manager._runner.RequestNextLine();
+    }
+
+    private void HandleDialogueComplete()
+    {
+        EventBus.Publish(new DialogueEndedEvent(_currentNode));
+        _currentNode = null;
 
         // 对话期间是我们切到 InteractionMenu 的，结束后恢复漫游
         if (_ownsModeSwitch &&
@@ -216,7 +314,7 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
     /// </summary>
     public void OnEvent(GameModeChangedEvent evt)
     {
-        if (!_ownsModeSwitch || _runner is not { IsRunning: true })
+        if (!_ownsModeSwitch || _runner is null || !_runner.IsDialogueRunning)
             return;
         if (GameModeManager.Instance is null)
             return;
@@ -229,7 +327,7 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
 
     private void Update()
     {
-        if (_runner is null || !_runner.IsRunning)
+        if (_runner is null || !_runner.IsDialogueRunning || _panel is null)
             return;
 
         // 键盘/手柄 Submit（鼠标点击由面板的 OnPointerClick 处理）
