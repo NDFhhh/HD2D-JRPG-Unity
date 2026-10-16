@@ -1,0 +1,11 @@
+孤儿清单：6230 个
+解析出 guid：6230 个
+扫描 14888 个文件（1628.2 MB），发现引用 10270 处
+
+  自己 meta                    6230
+  另一个孤儿引用                    4039
+  【真矛盾】非孤儿引用孤儿               1
+
+【真矛盾】明细（前 60）：
+  [text] Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs.meta
+         -> Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader

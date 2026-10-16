@@ -1,0 +1,169 @@
+资产总览：14888 个文件（7597 个有 meta 的资产）
+文本资产 1134 个，meta 7597 个，C# 181 个；有出边的资产 1103 个
+   （ProjectSettings 引用解析出 8 条）
+
+入口资产 20 个：
+   Assets/AddressableAssetsData/AddressableAssetSettings.asset             <- Addressables 设置
+   Assets/AddressableAssetsData/AssetGroups/Built In Data.asset            <- Addressables 组定义
+   Assets/AddressableAssetsData/AssetGroups/Scenes.asset                   <- Addressables 组定义
+   Assets/AddressableAssetsData/DefaultObject.asset                        <- ProjectSettings/EditorBuildSettings.asset
+   Assets/Resources/DOTweenSettings.asset                                  <- Resources 目录
+   Assets/Scenes/Battle/Battle01/Battle01/Battle01.unity                   <- Addressables 地址: Battle01
+   Assets/Scenes/Battle/Battle02/Battle02.unity                            <- Addressables 地址: Battle02
+   Assets/Scenes/Battle/Battle03/Battle03.unity                            <- Addressables 地址: Battle03
+   Assets/Scenes/Field/Field01/Field01.unity                               <- Addressables 地址: Field01
+   Assets/Scenes/Field/Field02/Field02.unity                               <- Addressables 地址: Field02
+   Assets/Scenes/Field/Field03/Field03.unity                               <- Addressables 地址: Field03
+   Assets/Scenes/Map/Map.unity                                             <- Addressables 地址: Map
+   Assets/Scenes/Menu/Menu.unity                                           <- Addressables 地址: Menu
+   Assets/Scenes/Persistent/Persistent.unity                               <- Addressables 地址: Persistent
+   Assets/Scenes/Town/Town01_Day/Town01_Day.unity                          <- Addressables 地址: Town01_Day
+   Assets/Settings/Input System/CharacteInputActions.inputactions          <- ProjectSettings/EditorBuildSettings.asset
+   Assets/Settings/URP Settings/URP-Balanced.asset                         <- ProjectSettings/QualitySettings.asset
+   Assets/Settings/URP Settings/URP-HighFidelity.asset                     <- ProjectSettings/GraphicsSettings.asset
+   Assets/Settings/URP Settings/URP-Performant.asset                       <- ProjectSettings/QualitySettings.asset
+   Assets/Settings/URP Settings/UniversalRenderPipelineGlobalSettings.asset  <- ProjectSettings/GraphicsSettings.asset
+
+可达资产：988 个
+
+[DEBUG] 候选孤儿 6230 个 / 总资产 7597 个
+
+========================================================================
+候选孤儿资产：6230 个，合计 1138.2 MB
+========================================================================
+扩展名                  数量       体积(MB)
+.png               2164       396.10
+.tga               1669       338.96
+.fbx               1691       227.81
+.prefab             200        72.36
+.asset               29        32.34
+.exr                 22        22.60
+.otf                  1        20.41
+.psd                  1         9.06
+.mp3                  1         5.44
+.unity                9         4.46
+.jpg                  6         3.28
+.unitypackage         1         2.44
+.mat                290         0.70
+.pdf                  1         0.66
+.wav                  1         0.56
+.cs                  92         0.46
+.xml                  2         0.23
+.cginc                9         0.08
+.mdb                  2         0.08
+.shader              13         0.06
+.dll                  1         0.06
+.shadergraph          1         0.03
+.anim                 4         0.01
+.controller           3         0.01
+.terrainlayer         6         0.00
+.uxml                 1         0.00
+.asmdef               6         0.00
+.lighting             1         0.00
+.uss                  1         0.00
+.overridecontroller        1         0.00
+.rsp                  1         0.00
+
+按目录 TOP30：
+目录                                                             数量       体积(MB)
+Assets/Prefabs/场景资源                                          4998       889.25
+Assets/Plugins/Hovl Studio                                    124        64.99
+Assets/Arts/Fonts                                               2        52.43
+Assets/Plugins/JMO Assets                                     446        33.24
+Assets/Scenes/Town                                             18        22.13
+Assets/Martials/Terrains                                       20        20.10
+Assets/Plugins/JMO Assets 0                                   233        14.66
+Assets/Arts/Characters                                         84        12.01
+Assets/Plugins/Lana Studio                                     48        11.77
+Assets/Arts/UI                                                 72         6.99
+Assets/Arts/Audio                                               2         6.01
+Assets/Arts/Icons                                              47         1.04
+Assets/TextMesh Pro/Documentation                               1         0.66
+Assets/Scenes/Battle                                            7         0.64
+Assets/Arts/Mask                                                1         0.58
+Assets/Plugins/Demigiant                                       19         0.52
+Assets/Environment/Textures                                     8         0.39
+Assets/Scenes/Field                                             3         0.33
+Assets/TextMesh Pro/Sprites                                     1         0.11
+Assets/Scripts/Battle                                          23         0.10
+Assets/TextMesh Pro/Shaders                                    14         0.07
+Assets/Scripts/Game                                            23         0.06
+Assets/Settings/Input System                                    1         0.04
+Assets/Martials                                                 2         0.03
+Assets/TextMesh Pro/Resources                                   5         0.02
+Assets/Environment/Materials                                    5         0.02
+Assets/PostProcess                                              1         0.01
+Assets/Plugins/M Studio                                         3         0.01
+Assets/Scripts/MFrameWork                                       4         0.00
+Assets/Scripts/UI                                               3         0.00
+
+体积最大的 40 个孤儿：
+        MB  路径
+     32.01  Assets/Arts/Fonts/SourceHanSerifSC-ExtraLight SDF.asset
+     20.41  Assets/Arts/Fonts/SourceHanSerifSC-ExtraLight.otf
+      9.06  Assets/Plugins/Hovl Studio/Magic effects pack/Materials/VFXatlas.psd
+      7.94  Assets/Plugins/Hovl Studio/Magic effects pack/Textures/Concrete slab_Normal.png
+      6.76  Assets/Plugins/Hovl Studio/Magic effects pack/Textures/Concrete slab.png
+      6.24  Assets/Plugins/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png
+      5.44  Assets/Arts/Audio/BGM/Menu/Menu.mp3
+      5.20  Assets/Prefabs/场景资源/模型/建筑/EnvBdgMD_City_B_Outdoor_Full.FBX
+      4.80  Assets/Prefabs/场景资源/模型/建筑/MbdMD_Co_T_Plain_L_A_Build_02.FBX
+      4.01  Assets/Arts/UI/Overlay Panel/menu_map_bg.png
+      4.00  Assets/Prefabs/场景资源/贴图/建筑/EnvBdgTX_Castle_Raimei_A_cl.tga
+      3.55  Assets/Prefabs/场景资源/模型/建筑/MbdMD_T_Forest_S_GeneralShop.FBX
+      3.53  Assets/Plugins/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png
+      3.48  Assets/Scenes/Town/Town01_Night/Town01_Night.unity
+      3.36  Assets/Scenes/Town/Town01_Night/Lightmap-0_comp_light.exr
+      3.20  Assets/Scenes/Town/Town01_Night/Lightmap-1_comp_light.exr
+      2.85  Assets/Scenes/Town/Town01_Night/Lightmap-3_comp_light.exr
+      2.76  Assets/Scenes/Town/Town01_Night/Lightmap-2_comp_light.exr
+      2.74  Assets/Prefabs/场景资源/模型/建筑组件/EnvObjMD_Mine_A_Cart_A.FBX
+      2.70  Assets/Prefabs/场景资源/模型/建筑/ObjMD_Theater_1F.FBX
+      2.64  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Desert_Tower_A_cl.tga
+      2.62  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Mansion_B_cl.tga
+      2.61  Assets/Prefabs/场景资源/模型/建筑/MbdMD_Co_T_Snow_M_B_Build_03.FBX
+      2.53  Assets/Prefabs/场景资源/模型/建筑/EnvBdgMD_Mount_Daiseidou_A_Outdoor.FBX
+      2.44  Assets/Plugins/JMO Assets/Cartoon FX FREE (old legacy effects).unitypackage
+      2.42  Assets/Arts/UI/01/battle_gameover_cover.png
+      2.41  Assets/Prefabs/场景资源/模型/建筑组件/EnvMdrMD_Theater_A_Balcony_A.FBX
+      2.41  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Ruins_A_cl.tga
+      2.40  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Desert_Broken_A_cl.tga
+      2.37  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Daiseidou_A_Glass_no_2.tga
+      2.35  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Mansion_A_GrdCpt_A_cl.tga
+      2.33  Assets/Martials/Terrains/Snow/dirt_nor_gl_1k.exr
+      2.33  Assets/Prefabs/场景资源/模型/建筑/ObjMD_Daiseido_A.FBX
+      2.31  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Ruins_D_cl.tga
+      2.26  Assets/Prefabs/场景资源/贴图/建筑组件/EnvObjTX_MayCastle_A_cl.tga
+      2.24  Assets/Prefabs/场景资源/贴图/建筑组件/EnvObjTX_Atlantis_A_cl.tga
+      2.24  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Desert_Castle_A_GrdCpt_A_cl.tga
+      2.24  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Snow_B_Jail_A_cl.tga
+      2.22  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Ruins_C_cl.tga
+      2.22  Assets/Prefabs/场景资源/贴图/建筑组件/EnvMdrTX_Ruins_A_Wall_Fresco_A_cl.tga
+
+完整清单已写入：D:\Unity\Project\CodePath Traveler\Tools\AssetAudit\unused_assets.tsv
+
+========================================================================
+盲区自检（这些资产即使零引用也需人工确认）
+========================================================================
+落在 Plugins / Editor / 代码类 的孤儿：930 个
+        9.06 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Materials/VFXatlas.psd
+        7.94 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Textures/Concrete slab_Normal.png
+        6.76 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Textures/Concrete slab.png
+        6.24 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png
+        3.53 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png
+        2.44 MB  Assets/Plugins/JMO Assets/Cartoon FX FREE (old legacy effects).unitypackage
+        1.25 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Crystals crossfade.prefab
+        1.25 MB  Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/CFX2 Prefabs/Explosions/CFX2_WWExplosion_C.prefab
+        1.24 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Laser AOE.prefab
+        1.24 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Red energy explosion.prefab
+        1.01 MB  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR4 _POISONED_.prefab
+        1.00 MB  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR2 _CURSED_.prefab
+        1.00 MB  Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Textures/CFX_T_Smoke_4Frames.tga
+        0.90 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab
+        0.90 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab
+        0.80 MB  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Eerie/CFXR2 WW Enemy Explosion.prefab
+        0.79 MB  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR4 _FROZEN_.prefab
+        0.79 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Plexus AoE.prefab
+        0.78 MB  Assets/Plugins/Lana Studio/Hyper Casual FX/Prefabs/Confetti/Confetti_directional_multicolor.prefab
+        0.78 MB  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SLASH_.prefab
+   ... 其余 910 个见 tsv

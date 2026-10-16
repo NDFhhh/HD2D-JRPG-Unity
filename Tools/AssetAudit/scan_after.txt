@@ -1,0 +1,143 @@
+资产总览：2659 个文件（1430 个有 meta 的资产）
+文本资产 603 个，meta 1430 个，C# 181 个；有出边的资产 589 个
+   （ProjectSettings 引用解析出 8 条）
+
+入口资产 20 个：
+   Assets/AddressableAssetsData/AddressableAssetSettings.asset             <- Addressables 设置
+   Assets/AddressableAssetsData/AssetGroups/Built In Data.asset            <- Addressables 组定义
+   Assets/AddressableAssetsData/AssetGroups/Scenes.asset                   <- Addressables 组定义
+   Assets/AddressableAssetsData/DefaultObject.asset                        <- ProjectSettings/EditorBuildSettings.asset
+   Assets/Resources/DOTweenSettings.asset                                  <- Resources 目录
+   Assets/Scenes/Battle/Battle01/Battle01/Battle01.unity                   <- Addressables 地址: Battle01
+   Assets/Scenes/Battle/Battle02/Battle02.unity                            <- Addressables 地址: Battle02
+   Assets/Scenes/Battle/Battle03/Battle03.unity                            <- Addressables 地址: Battle03
+   Assets/Scenes/Field/Field01/Field01.unity                               <- Addressables 地址: Field01
+   Assets/Scenes/Field/Field02/Field02.unity                               <- Addressables 地址: Field02
+   Assets/Scenes/Field/Field03/Field03.unity                               <- Addressables 地址: Field03
+   Assets/Scenes/Map/Map.unity                                             <- Addressables 地址: Map
+   Assets/Scenes/Menu/Menu.unity                                           <- Addressables 地址: Menu
+   Assets/Scenes/Persistent/Persistent.unity                               <- Addressables 地址: Persistent
+   Assets/Scenes/Town/Town01_Day/Town01_Day.unity                          <- Addressables 地址: Town01_Day
+   Assets/Settings/Input System/CharacteInputActions.inputactions          <- ProjectSettings/EditorBuildSettings.asset
+   Assets/Settings/URP Settings/URP-Balanced.asset                         <- ProjectSettings/QualitySettings.asset
+   Assets/Settings/URP Settings/URP-HighFidelity.asset                     <- ProjectSettings/GraphicsSettings.asset
+   Assets/Settings/URP Settings/URP-Performant.asset                       <- ProjectSettings/QualitySettings.asset
+   Assets/Settings/URP Settings/UniversalRenderPipelineGlobalSettings.asset  <- ProjectSettings/GraphicsSettings.asset
+
+可达资产：988 个
+
+[DEBUG] 候选孤儿 168 个 / 总资产 1430 个
+
+========================================================================
+候选孤儿资产：168 个，合计 77.8 MB
+========================================================================
+扩展名                  数量       体积(MB)
+.asset                3        32.19
+.otf                  1        20.41
+.exr                 15        14.09
+.png                 13         5.81
+.unity                9         4.46
+.cs                  92         0.46
+.cginc                9         0.08
+.mdb                  2         0.08
+.shader              13         0.06
+.dll                  1         0.06
+.shadergraph          1         0.03
+.uxml                 1         0.00
+.asmdef               6         0.00
+.uss                  1         0.00
+.rsp                  1         0.00
+
+按目录 TOP30：
+目录                                                             数量       体积(MB)
+Assets/Arts/Fonts                                               2        52.43
+Assets/Scenes/Town                                             16        22.12
+Assets/Plugins/Hovl Studio                                      7         0.76
+Assets/Scenes/Battle                                            7         0.64
+Assets/Plugins/JMO Assets                                      30         0.39
+Assets/Scenes/Field                                             3         0.33
+Assets/Plugins/Lana Studio                                      4         0.32
+Assets/Plugins/Demigiant                                       12         0.26
+Assets/Plugins/JMO Assets 0                                    12         0.18
+Assets/Scripts/Battle                                          23         0.10
+Assets/TextMesh Pro/Shaders                                    14         0.07
+Assets/Scripts/Game                                            23         0.06
+Assets/Settings/Input System                                    1         0.04
+Assets/Martials                                                 1         0.03
+Assets/Scripts/MFrameWork                                       4         0.00
+Assets/Scripts/UI                                               3         0.00
+Assets/Plugins/M Studio                                         2         0.00
+Assets/Scripts/Utility                                          2         0.00
+Assets/Scripts/Menu                                             1         0.00
+Assets                                                          1         0.00
+
+体积最大的 40 个孤儿：
+        MB  路径
+     32.01  Assets/Arts/Fonts/SourceHanSerifSC-ExtraLight SDF.asset
+     20.41  Assets/Arts/Fonts/SourceHanSerifSC-ExtraLight.otf
+      3.48  Assets/Scenes/Town/Town01_Night/Town01_Night.unity
+      3.36  Assets/Scenes/Town/Town01_Night/Lightmap-0_comp_light.exr
+      3.20  Assets/Scenes/Town/Town01_Night/Lightmap-1_comp_light.exr
+      2.85  Assets/Scenes/Town/Town01_Night/Lightmap-3_comp_light.exr
+      2.76  Assets/Scenes/Town/Town01_Night/Lightmap-2_comp_light.exr
+      1.30  Assets/Scenes/Town/Town01_Night/Lightmap-0_comp_dir.png
+      1.17  Assets/Scenes/Town/Town01_Night/Lightmap-1_comp_dir.png
+      1.08  Assets/Scenes/Town/Town01_Night/Lightmap-3_comp_dir.png
+      0.86  Assets/Scenes/Town/Town01_Night/Lightmap-2_comp_dir.png
+      0.39  Assets/Scenes/Town/Town01_Night/Lightmap-0_comp_shadowmask.png
+      0.34  Assets/Scenes/Town/Town01_Night/Lightmap-1_comp_shadowmask.png
+      0.33  Assets/Scenes/Town/Town01_Night/Lightmap-3_comp_shadowmask.png
+      0.32  Assets/Scenes/Town/Town01_Night/Lightmap-2_comp_shadowmask.png
+      0.29  Assets/Scenes/Town/Town01_Day/ReflectionProbe-0.exr
+      0.29  Assets/Scenes/Field/Field02/Field02/ReflectionProbe-0.exr
+      0.29  Assets/Scenes/Battle/Battle02/Battle02/ReflectionProbe-0.exr
+      0.29  Assets/Scenes/Battle/Battle01/Battle01/ReflectionProbe-0.exr
+      0.29  Assets/Scenes/Town/Town01_Night/ReflectionProbe-0.exr
+      0.23  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-0.exr
+      0.21  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXRF Demo.unity
+      0.16  Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/CFX Free Demo.unity
+      0.15  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Magic effects second demo.unity
+      0.15  Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo03.unity
+      0.14  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Magic effects demo.unity
+      0.13  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr
+      0.13  Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo02.unity
+      0.10  Assets/Scenes/Town/Town01_Night/LightingData.asset
+      0.08  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/LightingData.asset
+      0.06  Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+      0.06  Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+      0.04  Assets/Settings/Input System/CharacteInputActions.cs
+      0.04  Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+      0.04  Assets/Scenes/Field/Field02/Field02/Lightmap-0_comp_light.exr
+      0.04  Assets/Scenes/Battle/Battle02/Battle02/Lightmap-0_comp_light.exr
+      0.03  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_PASSES.cginc
+      0.03  Assets/Martials/Wipe Shader.shadergraph
+      0.03  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_light.exr
+      0.02  Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo04.unity
+
+完整清单已写入：D:\Unity\Project\CodePath Traveler\Tools\AssetAudit\unused_assets.tsv
+
+========================================================================
+盲区自检（这些资产即使零引用也需人工确认）
+========================================================================
+落在 Plugins / Editor / 代码类 的孤儿：124 个
+        0.23 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-0.exr
+        0.21 MB  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXRF Demo.unity
+        0.16 MB  Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/CFX Free Demo.unity
+        0.15 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Magic effects second demo.unity
+        0.15 MB  Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo03.unity
+        0.14 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Magic effects demo.unity
+        0.13 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr
+        0.13 MB  Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo02.unity
+        0.08 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/LightingData.asset
+        0.06 MB  Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+        0.06 MB  Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+        0.04 MB  Assets/Settings/Input System/CharacteInputActions.cs
+        0.04 MB  Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+        0.03 MB  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_PASSES.cginc
+        0.03 MB  Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_light.exr
+        0.02 MB  Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo04.unity
+        0.02 MB  Assets/Scripts/Battle/Core/Models/BattleEntity.cs
+        0.02 MB  Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo01.unity
+        0.02 MB  Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_MaterialInspector.cs
+        0.02 MB  Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
+   ... 其余 104 个见 tsv

@@ -35,6 +35,16 @@ public class BattleCinematicService : MonoBehaviour,
 
     #endregion
 
+    /// <summary>
+    /// 清掉缓存的镜头基准位。
+    /// 供 BattleCameraRig 在入场重新定位相机后调用：基准位换了，旧缓存就成了错误目标，
+    /// 下一次强制中断演出（或 OnDisable 兜底归位）会把镜头拉回上一场的机位。
+    /// </summary>
+    public void ResetCameraBaseCache()
+    {
+        _hasCameraBase = false;
+    }
+
     private void OnEnable()
     {
         EventBus.Subscribe<KillCinematicRequestedEvent>(this);

@@ -1,0 +1,496 @@
+size_bytes	size_MB	ext	path
+33570037	32.015	.asset	Assets/Arts/Fonts/SourceHanSerifSC-ExtraLight SDF.asset
+21406352	20.415	.otf	Assets/Arts/Fonts/SourceHanSerifSC-ExtraLight.otf
+7589643	7.238	.psd	Assets/Arts/Environment/Sky/M_SkyDay_D.psd
+3145772	3.000	.tga	Assets/Environment/Textures/E01.tga
+2555856	2.437	.fbx	Assets/Environment/Meshes/ObjMD_Daiseido_A.fbx
+2547578	2.430	.obj	Assets/Environment/Meshes/BackdropMountains.obj
+2256537	2.152	.tga	Assets/Environment/Textures/EnvBdgTX_City_B_Outdoor_cl.tga
+2104038	2.007	.tga	Assets/Environment/Textures/ObjTX_Daiseido_A_01_no.tga
+1744733	1.664	.tga	Assets/Environment/Textures/ObjTX_Daiseido_A_01_cl.tga
+1048620	1.000	.tga	Assets/Environment/Textures/EnvBdgTX_Forest_MothersGarden_B_cl.tga
+694398	0.662	.pdf	Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+597943	0.570	.png	Assets/Arts/Characters/Enemy/Sazantos.png
+585643	0.559	.png	Assets/Environment/Textures/Backdrop_Normals.PNG
+463887	0.442	.tga	Assets/Environment/Textures/EnvMdrTX_DepartmentStore_A_Indoor_cl.tga
+457485	0.436	.tga	Assets/Environment/Textures/EnvMdrTX_DepartmentStore_A_Indoor_no.tga
+418869	0.399	.tga	Assets/Environment/Textures/EnvBdgTX_City_B_Outdoor_no.tga
+407532	0.389	.tga	Assets/Environment/Textures/EnvBdgTX_City_A_Outdoor_no.tga
+403662	0.385	.png	Assets/Environment/Textures/Backdrop_Albedo.png
+402958	0.384	.png	Assets/Arts/Characters/NPC/Human01-battle.png
+397881	0.379	.tga	Assets/Environment/Textures/ObjTX_Daiseido_A_02_no.tga
+374064	0.357	.fbx	Assets/Prefabs/场景资源/模型/物件/ObjMD_Woodput_A.FBX
+357778	0.341	.tga	Assets/Environment/Textures/ObjTX_Daiseido_A_02_cl.tga
+345152	0.329	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Theater_A.FBX
+327392	0.312	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_A_Event_A.FBX
+319024	0.304	.png	Assets/Arts/Characters/Enemy/Lutiya.png
+318960	0.304	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_B_Bluewall_A.FBX
+305584	0.291	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_B.FBX
+296032	0.282	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Pub_A.FBX
+284573	0.271	.tga	Assets/Environment/Textures/ObjTX_Daiseido_window_no.tga
+284192	0.271	.fbx	Assets/Environment/Meshes/ObjMD_Tree_Plain_A.fbx
+281494	0.268	.tga	Assets/Environment/Textures/ObjTX_Daiseido_window_cl.tga
+275675	0.263	.tga	Assets/Environment/Textures/ObjTX_Plain_Windmill_A_cl.tga
+268656	0.256	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_G_Redwall_A.FBX
+263946	0.252	.tga	Assets/Environment/Textures/EnvMdrTX_Daiseidou_B_B_cl.tga
+245648	0.234	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_G.FBX
+237811	0.227	.exr	Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-0.exr
+224621	0.214	.tga	Assets/Environment/Textures/EnvBdgTX_Forest_MothersGarden_B_no.tga
+221641	0.211	.unity	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXRF Demo.unity
+219884	0.210	.tga	Assets/Environment/Textures/EnvBdgTX_City_A_Outdoor_cl.tga
+213108	0.203	.tga	Assets/Environment/Textures/EnvMdrTX_Sea_A_Exterior_A_no.tga
+212432	0.203	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_A_Arrange_A.FBX
+202419	0.193	.tga	Assets/Environment/Textures/EnvMdrTX_Sea_A_Exterior_A_cl.tga
+196992	0.188	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_C_Arrange_C.FBX
+196652	0.188	.tga	Assets/Environment/Textures/E02.tga
+187988	0.179	.tga	Assets/Environment/Textures/EnvMdrTX_Garden_A_cl.tga
+181387	0.173	.tga	Assets/Environment/Textures/EnvObjTX_Statue_B_cl.tga
+169502	0.162	.unity	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/CFX Free Demo.unity
+159912	0.153	.unity	Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Magic effects second demo.unity
+155863	0.149	.tga	Assets/Environment/Textures/EnvObjTX_Flower_C_Wallplanter_cl.tga
+154463	0.147	.tga	Assets/Environment/Textures/EnvObjTX_Fountain_A_no.tga
+153480	0.146	.unity	Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo03.unity
+151063	0.144	.tga	Assets/Environment/Textures/EnvMdrTX_Mansion_Carpet_B_Debris_A_no.tga
+149201	0.142	.unity	Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Magic effects demo.unity
+148055	0.141	.tga	Assets/Environment/Textures/ObjTX_Plain_Windmill_A_no.tga
+145136	0.138	.fbx	Assets/Environment/Meshes/EnvObjMD_Canoedock_A_Base.fbx
+144528	0.138	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_D_Arrange_B.FBX
+136001	0.130	.tga	Assets/Environment/Textures/EnvObjTX_Statue_B_no.tga
+133554	0.127	.exr	Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr
+131309	0.125	.unity	Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo02.unity
+130331	0.124	.png	Assets/Arts/Characters/Enemy/enemy00078.png
+127120	0.121	.tga	Assets/Environment/Textures/EnvObjTX_Fountain_A_cl.tga
+126707	0.121	.png	Assets/Arts/Characters/Enemy/enemy00002.png
+117536	0.112	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_H_Arrange_A.FBX
+115937	0.111	.png	Assets/Arts/Characters/Enemy/Cygna.png
+115120	0.110	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_F_Redwall_A.FBX
+112319	0.107	.png	Assets/TextMesh Pro/Sprites/EmojiOne.png
+111841	0.107	.tga	Assets/Environment/Textures/EnvObjTX_Canoedock_A_cl.tga
+108480	0.103	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_E.FBX
+104928	0.100	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_H_Redwall_A.FBX
+97327	0.093	.tga	Assets/Environment/Textures/EnvMdrTX_Garden_A_no.tga
+97168	0.093	.fbx	Assets/Prefabs/场景资源/模型/植物/EnvFldMD_Tree_E_MB_LOD0_Painted.FBX
+94736	0.090	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_L_H.FBX
+91756	0.088	.tga	Assets/Environment/Textures/EnvMdrTX_Mansion_Carpet_B_Debris_A_cl.tga
+88576	0.084	.fbx	Assets/Environment/Meshes/EnvObjMD_Barrel_A_Back.fbx
+88304	0.084	.fbx	Assets/Environment/Meshes/SM_light04.fbx
+85416	0.081	.asset	Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/LightingData.asset
+76877	0.073	.tga	Assets/Environment/Textures/EnvObjTX_Flag_A_cl.tga
+74532	0.071	.tga	Assets/Environment/Textures/EnvMdrTX_Mansion_Carpet_B_cl.tga
+71648	0.068	.fbx	Assets/Environment/Meshes/SM_Signboard02.fbx
+70928	0.068	.fbx	Assets/Environment/Meshes/ObjMD_Bridge_C.FBX
+70080	0.067	.fbx	Assets/Environment/Meshes/SM_Signboard01.fbx
+69120	0.066	.fbx	Assets/Environment/Meshes/SM_Signboard03.fbx
+68048	0.065	.fbx	Assets/Environment/Meshes/SM_Signboard04.fbx
+68047	0.065	.mdb	Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+66937	0.064	.tga	Assets/Environment/Textures/EnvObjTX_Lamppost_A_cl.tga
+66560	0.063	.dll	Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+65580	0.063	.tga	Assets/Environment/Textures/EnvObjTX_Chair_Bench_A_cl.tga
+65292	0.062	.tga	Assets/Environment/Textures/EnvFldTX_Tree_G_Leaf_no.tga
+64512	0.062	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_A_Outdoor_Balcony.FBX
+63183	0.060	.tga	Assets/Environment/Textures/ObjTX_Boat_A_01_cl.tga
+61968	0.059	.fbx	Assets/Environment/Meshes/EnvMdrMD_Sea_A_Fence_A_Post_A.fbx
+60778	0.058	.tga	Assets/Environment/Textures/ObjTX_Floorpattern_A_01_no.tga
+59648	0.057	.fbx	Assets/Environment/Meshes/EnvObjMD_Barrel_A_Open.fbx
+58624	0.056	.fbx	Assets/Environment/Meshes/ObjMD_Boat_A.fbx
+58274	0.056	.tga	Assets/Environment/Textures/ObjTX_Boat_A_01_no.tga
+56384	0.054	.fbx	Assets/Environment/Meshes/SM_Door01.fbx
+55040	0.052	.fbx	Assets/Environment/Meshes/SM_light02.fbx
+54498	0.052	.png	Assets/Arts/Characters/Enemy/Huge Chomper.png
+54389	0.052	.tga	Assets/Environment/Textures/EnvMdrTX_Mansion_Carpet_B_no.tga
+53125	0.051	.tga	Assets/Environment/Textures/ObjTX_Tree_Plain_A_cl.tga
+52240	0.050	.fbx	Assets/Environment/Meshes/EnvObjMD_Rope_A.FBX
+51782	0.049	.tga	Assets/Environment/Textures/EnvObjTX_Flag_A_no.tga
+50528	0.048	.fbx	Assets/Environment/Meshes/SM_light03.fbx
+49196	0.047	.tga	Assets/Environment/Textures/E05.tga
+49196	0.047	.tga	Assets/Environment/Textures/E04.tga
+49196	0.047	.tga	Assets/Environment/Textures/E03.tga
+47312	0.045	.tga	Assets/Environment/Textures/ObjTX_Bridge_C_01_cl.tga
+46128	0.044	.fbx	Assets/Environment/Meshes/EnvObjMD_FoliagePlant_A.fbx
+45456	0.043	.fbx	Assets/Prefabs/场景资源/模型/物件/ObjMD_Woodstump_A.FBX
+45296	0.043	.fbx	Assets/Environment/Meshes/SM_floor01.fbx
+44496	0.042	.fbx	Assets/Environment/Meshes/EnvObjMD_Flag_A_Garland_A_L001.fbx
+44336	0.042	.fbx	Assets/Environment/Meshes/EnvObjMD_Fountain_A_B.fbx
+44243	0.042	.cs	Assets/Settings/Input System/CharacteInputActions.cs
+43254	0.041	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+42208	0.040	.fbx	Assets/Prefabs/场景资源/模型/植物/EnvFldMD_Tree_F_BareTree_M_Snow.FBX
+40432	0.039	.fbx	Assets/Environment/Meshes/EnvObjMD_Canoedock_A_Step.fbx
+39936	0.038	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Awning_B.FBX
+39580	0.038	.tga	Assets/Environment/Textures/EnvObjTX_Lamp_I_cl.tga
+38496	0.037	.fbx	Assets/Environment/Meshes/EnvObjMD_Flower_C_Wallplanter_Yellow.fbx
+38480	0.037	.fbx	Assets/Environment/Meshes/EnvMdrMD_Garden_A_Bush_A_white.fbx
+38464	0.037	.fbx	Assets/Environment/Meshes/EnvObjMD_Flower_C_Wallplanter_Red.fbx
+38464	0.037	.fbx	Assets/Environment/Meshes/EnvObjMD_Flower_C_Wallplanter_Purple.fbx
+38282	0.037	.tga	Assets/Environment/Textures/EnvObjTX_Rope_A_cl.tga
+38256	0.036	.fbx	Assets/Environment/Meshes/EnvMdrMD_DepartmentStore_Indoor_WorldMap.fbx
+38096	0.036	.fbx	Assets/Environment/Meshes/EnvObjMD_Chair_Bench_A_M.fbx
+37954	0.036	.tga	Assets/Environment/Textures/ObjTX_Bridge_C_01_no.tga
+37696	0.036	.fbx	Assets/Environment/Meshes/EnvMdrMD_Garden_A_Bush_A_Rose.fbx
+37664	0.036	.fbx	Assets/Prefabs/场景资源/模型/建筑组件/EnvObjMD_PoleHanger_A.FBX
+36960	0.035	.fbx	Assets/Environment/Meshes/SM_Wall01.fbx
+36112	0.034	.fbx	Assets/Environment/Meshes/EnvMdrMD_Garden_A_Bush_B.fbx
+35931	0.034	.tga	Assets/Environment/Textures/EnvObjTX_FoliagePlant_A_cl.tga
+35808	0.034	.fbx	Assets/Environment/Meshes/EnvMdrMD_Mansion_GrdCpt_B_End_400W200D.fbx
+35808	0.034	.fbx	Assets/Environment/Meshes/EnvMdrMD_Mansion_GrdCpt_B_End_400W200D 1.fbx
+35729	0.034	.png	Assets/PostProcess/SGS_LUT.png
+35606	0.034	.cginc	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_PASSES.cginc
+35088	0.033	.fbx	Assets/Environment/Meshes/ObjMD_Box_D.fbx
+34848	0.033	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Chimney_S_A.FBX
+34752	0.033	.fbx	Assets/Environment/Meshes/SM_light01.fbx
+34740	0.033	.tga	Assets/Environment/Textures/EnvObjTX_Barrel_A_no.tga
+34368	0.033	.fbx	Assets/Environment/Meshes/EnvMdrMD_Sea_A_FencePillar_A.fbx
+34336	0.033	.fbx	Assets/Environment/Meshes/ObjMD_Floorpattern_A_lerge.fbx
+34272	0.033	.fbx	Assets/Environment/Meshes/EnvMdrMD_Sea_A_Fence_A_Loop_A.fbx
+34096	0.033	.fbx	Assets/Environment/Meshes/EnvObjMD_Flag_A_Garland_B_S001.fbx
+34064	0.032	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Signbord_A_Vertical.FBX
+33818	0.032	.tga	Assets/Environment/Textures/ObjTX_Floorpattern_B_01_cl.tga
+33456	0.032	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Signbord_C.FBX
+33296	0.032	.fbx	Assets/Environment/Meshes/SM_wall02.fbx
+33024	0.031	.fbx	Assets/Environment/Meshes/EnvMdrMD_Daiseidou_B_Chimney_A.fbx
+32941	0.031	.tga	Assets/Environment/Textures/EnvObjTX_Lamp_K_cl.tga
+32848	0.031	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Signbord_A.FBX
+32796	0.031	.tga	Assets/Environment/Textures/EnvObjTX_Lamp_Wall_A_cl.tga
+32786	0.031	.tga	Assets/Environment/Textures/EnvMdrTX_Daiseidou_B_B_no.tga
+32496	0.031	.fbx	Assets/Environment/Meshes/ObjMD_Box_B.fbx
+32464	0.031	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Awning_A.FBX
+32416	0.031	.fbx	Assets/Environment/Meshes/SM_Wall03.fbx
+32416	0.031	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Window_L_D.FBX
+31968	0.030	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Window_L_B.FBX
+31536	0.030	.fbx	Assets/Environment/Meshes/SM_zhuzi01.fbx
+31457	0.030	.tga	Assets/Environment/Textures/EnvObjTX_Signboard_A_no.tga
+31296	0.030	.fbx	Assets/Environment/Meshes/EnvMdrMD_Garden_A_Bush_A.fbx
+31102	0.030	.shadergraph	Assets/Martials/Wipe Shader.shadergraph
+31040	0.030	.fbx	Assets/Environment/Meshes/ObjMD_Box_A.fbx
+30848	0.029	.fbx	Assets/Environment/Meshes/EnvBdgMD_City_B_Outdoor_Signbord_D_B.FBX
+27728	0.026	.fbx	Assets/Environment/Meshes/EnvObjMD_Statue_B_Pedestal.fbx
+26311	0.025	.exr	Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_light.exr
+26288	0.025	.tga	Assets/Environment/Textures/EnvFldTX_Tree_G_Leaf_cl.tga
+25890	0.025	.tga	Assets/Environment/Textures/EnvObjTX_Lamppost_A_no.tga
+25228	0.024	.unity	Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo04.unity
+22831	0.022	.cs	Assets/Scripts/Battle/Core/Models/BattleEntity.cs
+22428	0.021	.tga	Assets/Environment/Textures/EnvObjTX_Barrel_A_cl.tga
+21753	0.021	.unity	Assets/Plugins/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo01.unity
+20233	0.019	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_MaterialInspector.cs
+18321	0.017	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
+17268	0.016	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs
+16755	0.016	.tga	Assets/Environment/Textures/EnvObjTX_Canoedock_A_no.tga
+14946	0.014	.tga	Assets/Environment/Textures/EnvObjTX_Signboard_A_cl.tga
+14534	0.014	.tga	Assets/Environment/Textures/EnvObjTX_Chair_Bench_A_no.tga
+14003	0.013	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+13929	0.013	.cs	Assets/Scripts/Battle/Core/Commands/AttackSkillExecutionEngine.cs
+13441	0.013	.asset	Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+12914	0.012	.cginc	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc
+12579	0.012	.tga	Assets/Environment/Textures/ObjTX_Box_A_cl.tga
+12351	0.012	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_Styles.cs
+12177	0.012	.cs	Assets/Scripts/Battle/Core/FSM/EnemyAIState.cs
+12141	0.012	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
+12117	0.012	.tga	Assets/Environment/Textures/EnvObjTX_FoliagePlant_A_no.tga
+12002	0.011	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUIToolkit.cs
+12000	0.011	.shader	Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+11878	0.011	.mdb	Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb
+11341	0.011	.cginc	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc
+10974	0.010	.tga	Assets/Environment/Textures/EnvObjTX_Lamp_I_no.tga
+10585	0.010	.shader	Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+9954	0.009	.tga	Assets/Environment/Textures/EnvObjTX_Flower_C_Wallplanter_no.tga
+9734	0.009	.tga	Assets/Environment/Textures/ObjTX_Box_A_no.tga
+9193	0.009	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo.cs
+9177	0.009	.cs	Assets/Scripts/Game/Audio/AudioEventBridge.cs
+8955	0.009	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+8944	0.009	.tga	Assets/Environment/Textures/ObjTX_Box_B_01_cl.tga
+8875	0.008	.cs	Assets/Scripts/Game/Dialogue/DialogueManager.cs
+8558	0.008	.tga	Assets/Environment/Textures/EnvObjTX_Rope_A_no.tga
+8400	0.008	.cs	Assets/Scripts/Battle/Core/Systems/BattleRoundScheduler.cs
+8211	0.008	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs
+8131	0.008	.tga	Assets/Environment/Textures/ObjTX_Box_B_01_no.tga
+7822	0.007	.shader	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+7781	0.007	.cs	Assets/Scripts/Battle/Event/BattleEvents.cs
+7643	0.007	.shader	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+7597	0.007	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ExpressionParser.cs
+7543	0.007	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs
+7495	0.007	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs
+7262	0.007	.cs	Assets/Scripts/Game/Character/CharacterRuntimeData.cs
+7177	0.007	.cginc	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc
+6861	0.007	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+6810	0.006	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+6563	0.006	.cs	Assets/Scripts/Game/Audio/SFXPlayer.cs
+6403	0.006	.cs	Assets/Scripts/Game/Dialogue/Data/DialogueAsset_SO.cs
+6307	0.006	.asset	Assets/PostProcess/SGS_VolumeProfile.asset
+6274	0.006	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs
+6273	0.006	.asset	_bak_pipeline_switch/URP Settings/URP-HighFidelity-Renderer.asset
+6072	0.006	.tga	Assets/Environment/Textures/EnvObjTX_Lamp_Wall_A_no.tga
+5658	0.005	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_New.cs
+5591	0.005	.asset	_bak_pipeline_switch/URP Settings/URP-Balanced-Renderer.asset
+5311	0.005	.cginc	Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+5285	0.005	.asset	_bak_pipeline_switch/URP Settings/URP-HighFidelity.asset
+5281	0.005	.asset	_bak_pipeline_switch/URP Settings/URP-Performant.asset
+5278	0.005	.asset	_bak_pipeline_switch/URP Settings/URP-Balanced.asset
+4953	0.005	.asset	Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+4852	0.005	.anim	Assets/Animation/Enemy/Field03/Sazantos/Sazantos-battle-idle-hp-normal.anim
+4837	0.005	.cs	Assets/Scripts/Battle/Core/FSM/TargetSelectionState.cs
+4687	0.004	.cs	Assets/Scripts/Game/Audio/MusicPlayer.cs
+4548	0.004	.shader	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader
+4497	0.004	.cs	Assets/Scripts/Battle/Core/Systems/BattleOutcomeResolver.cs
+4355	0.004	.shader	Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+4354	0.004	.asset	_bak_pipeline_switch/Break Volume Profile.asset
+4323	0.004	.asset	_bak_pipeline_switch/URP Settings/URP-Performant-Renderer.asset
+4236	0.004	.cs	Assets/Scripts/MFrameWork/Event/EventBus.cs
+4180	0.004	.cs	Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
+4130	0.004	.cs	Assets/Scripts/Utility/Enums.cs
+4122	0.004	.anim	Assets/Animation/Enemy/Field02/Spirit Stag/Spirit Stag-battle-idle-hp-normal.anim
+4110	0.004	.cs	Assets/Scripts/Game/Skill/StealSkillLogic_SO.cs
+4034	0.004	.mat	Assets/Arts/Environment/Sky/M_SkyDay 2.mat
+4033	0.004	.mat	Assets/Arts/Environment/Sky/M_SkyDay.mat
+4028	0.004	.cs	Assets/Scripts/Game/Dialogue/DialogueRunner.cs
+4026	0.004	.mat	Assets/Arts/Environment/Sky/M_SkyDay 1.mat
+4018	0.004	.cs	Assets/Scripts/Battle/Core/FSM/PlayerInputState.cs
+3896	0.004	.mat	Assets/Environment/Materials/EnvBdgMD_City_B_Outdoor.mat
+3890	0.004	.mat	Assets/Environment/Materials/SM_light03_1.mat
+3888	0.004	.mat	Assets/Environment/Materials/M_light02 1.mat
+3882	0.004	.mat	Assets/Environment/Materials/M_light01.mat
+3881	0.004	.mat	Assets/Environment/Materials/M_light04.mat
+3865	0.004	.mat	Assets/Environment/Materials/M_light02.mat
+3864	0.004	.mat	Assets/Environment/Materials/EnvBdgMD_City_A_Outdoor.mat
+3860	0.004	.mat	Assets/Environment/Materials/ObjMD_Floorpattern_A_lerge.mat
+3852	0.004	.mat	Assets/Environment/Materials/SM_light03_2.mat
+3847	0.004	.mat	Assets/Environment/Materials/ObjMD_Bridge_C.mat
+3842	0.004	.mat	Assets/Environment/Materials/Backdrop.mat
+3834	0.004	.mat	Assets/Environment/Materials/EnvMdrMD_Garden_A.mat
+3832	0.004	.mat	Assets/Environment/Materials/EnvMdrTX_Garden.mat
+3818	0.004	.mat	Assets/Environment/Materials/EnvObjMD_Statue_B_Pedestal - Copy.mat
+3817	0.004	.mat	Assets/Environment/Materials/EnvBdgMD_Forest_MothersGarden_B.mat
+3816	0.004	.mat	Assets/Environment/Materials/EnvMdrMD_DepartmentStore_Indoor.mat
+3814	0.004	.mat	Assets/Environment/Materials/EnvMdrMD_Mansion_GrdCpt_B 1.mat
+3811	0.004	.mat	Assets/Environment/Materials/EnvObjMD_Statue_B_Pedestal.mat
+3810	0.004	.mat	Assets/Environment/Materials/ObjTX_Plain_Windmill_A_cl.mat
+3810	0.004	.mat	Assets/Environment/Materials/EnvObjTX_Chair_Bench_A_cl.mat
+3810	0.004	.mat	Assets/Environment/Materials/EnvMdrMD_Mansion_GrdCpt_B.mat
+3809	0.004	.mat	Assets/Environment/Materials/EnvObjTX_FoliagePlant_A.mat
+3809	0.004	.mat	Assets/Environment/Materials/EnvObjTX_Canoedock_A_cl.mat
+3806	0.004	.mat	Assets/Environment/Materials/EnvMdrMD_Daiseidou_B.mat
+3803	0.004	.mat	Assets/Environment/Materials/EnvObjTX_Barrel_A.mat
+3802	0.004	.mat	Assets/Environment/Materials/ObjMD_Daiseido_A3.mat
+3802	0.004	.mat	Assets/Environment/Materials/ObjMD_Daiseido_A2.mat
+3802	0.004	.mat	Assets/Environment/Materials/ObjMD_Daiseido_A1.mat
+3801	0.004	.mat	Assets/Environment/Materials/_Fence_A_Post_A.mat
+3801	0.004	.mat	Assets/Environment/Materials/EnvObjTX_Flower.mat
+3801	0.004	.mat	Assets/Environment/Materials/EnvObjMD_Rope_A.mat
+3800	0.004	.mat	Assets/Environment/Materials/EnvObjTX_Flag_A.mat
+3797	0.004	.mat	Assets/Environment/Materials/SM_Signboard.mat
+3797	0.004	.mat	Assets/Environment/Materials/ObjMD_Box_D.mat
+3797	0.004	.mat	Assets/Environment/Materials/ObjMD_Box_B.mat
+3797	0.004	.mat	Assets/Environment/Materials/ObjMD_Box_A.mat
+3776	0.004	.anim	Assets/Animation/Enemy/Field02/Cave Worm/Cave Worm-battle-idle-hp-normal.anim
+3773	0.004	.mat	Assets/Environment/Materials/ObjTX_Tree_Plain_A 3.mat
+3772	0.004	.mat	Assets/Environment/Materials/ObjTX_Tree_Plain_A 1.mat
+3771	0.004	.mat	Assets/Environment/Materials/ObjTX_Tree_Plain_A 2.mat
+3736	0.004	.mat	Assets/Environment/Materials/ObjTX_Tree_Plain_A.mat
+3735	0.004	.cs	Assets/Plugins/M Studio/Colourful Hierarchy Category GameObject/Editor/StyleHierarchy.cs
+3730	0.004	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs
+3719	0.004	.mat	Assets/Martials/Material Shadow NPC.mat
+3708	0.004	.prefab	Assets/Environment/Prefabs/BackdropMountains.prefab
+3679	0.004	.mat	Assets/Environment/Materials/New Material.mat
+3623	0.003	.mat	Assets/Environment/Materials/New Material 1.mat
+3563	0.003	.cginc	Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+3549	0.003	.shader	Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+3524	0.003	.shader	Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+3511	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Flag_A_Garland_A_L001.prefab
+3507	0.003	.prefab	Assets/Environment/Prefabs/ObjMD_Floorpattern_A_lerge.prefab
+3501	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Fountain_A_B.prefab
+3499	0.003	.shader	Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+3498	0.003	.prefab	Assets/Environment/Prefabs/ObjMD_Daiseido_A.prefab
+3497	0.003	.shader	Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+3496	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Rope_A.prefab
+3493	0.003	.cs	Assets/Plugins/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.cs
+3474	0.003	.anim	Assets/Animation/Enemy/Field02/Ice Sea Dragon/Ice Sea Dragon-battle-idle-hp-normal.anim
+3431	0.003	.anim	Assets/Animation/Enemy/Field03/Cygna/Cygna-battle-idle-hp-normal.anim
+3102	0.003	.anim	Assets/Animation/Enemy/Field01/Huge Chomper/Huge Chomper-battle-idle-hp-normal.anim
+3096	0.003	.anim	Assets/Animation/Ally/Garrick/Battle/Garrick-battle-run-left.anim
+3077	0.003	.cs	Assets/Scripts/Battle/Core/FSM/BattleSetupState.cs
+3071	0.003	.shader	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+3061	0.003	.anim	Assets/Animation/Ally/Garrick/Field/Garrick-run-left.anim
+3060	0.003	.anim	Assets/Animation/Ally/Garrick/Battle/Garrick-battle-attack.anim
+3057	0.003	.anim	Assets/Animation/Ally/Garrick/Field/Garrick-run-down.anim
+3056	0.003	.anim	Assets/Animation/Ally/Garrick/Field/Garrick-run-right.anim
+3055	0.003	.anim	Assets/Animation/Ally/Garrick/Field/Garrick-run-up.anim
+3030	0.003	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomEditor.cs
+3007	0.003	.cs	Assets/Scripts/Battle/Core/FSM/SelectNextEntityState.cs
+2975	0.003	.mat	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+2963	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Signbord_A_Vertical.prefab
+2962	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Mansion_GrdCpt_B_End_400W200D (1).prefab
+2960	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Mansion_GrdCpt_B_End_400W200D 1.prefab
+2960	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_DepartmentStore_Indoor_WorldMap.prefab
+2958	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_B_Bluewall_A.prefab
+2957	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_H_Redwall_A.prefab
+2957	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_H_Arrange_A.prefab
+2957	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_G_Redwall_A.prefab
+2957	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_F_Redwall_A.prefab
+2956	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Signbord_D_B.prefab
+2956	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_D_Arrange_B.prefab
+2956	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_A_Arrange_A.prefab
+2955	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Flower_C_Wallplanter_Yellow.prefab
+2955	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Flower_C_Wallplanter_Purple.prefab
+2955	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_A_Event_A.prefab
+2955	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Chimney_S_A.prefab
+2954	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Signbord_C.prefab
+2954	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Signbord_A.prefab
+2953	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Flower_C_Wallplanter_Red.prefab
+2953	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Theater_A.prefab
+2952	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Awning_B.prefab
+2951	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Awning_A.prefab
+2951	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_A_Outdoor_Balcony.prefab
+2950	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Flag_A_Garland_B_S001.prefab
+2950	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Garden_A_Bush_A_white.prefab
+2950	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Daiseidou_B_Chimney_A.prefab
+2949	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Sea_A_Fence_A_Post_A.prefab
+2949	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Sea_A_Fence_A_Loop_A.prefab
+2949	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Garden_A_Bush_A_Rose.prefab
+2949	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Pub_A.prefab
+2948	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Sea_A_FencePillar_A.prefab
+2948	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_C_Arrange_C.prefab
+2947	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_H.prefab
+2947	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_G.prefab
+2947	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_E.prefab
+2947	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_L_B.prefab
+2945	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Canoedock_A_Step.prefab
+2945	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Window_L_D.prefab
+2945	0.003	.prefab	Assets/Environment/Prefabs/EnvBdgMD_City_B_Outdoor_Window_L_B.prefab
+2944	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Statue_B_Pedestal.prefab
+2944	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Chair_Bench_A_M.prefab
+2944	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Canoedock_A_Base.prefab
+2944	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Garden_A_Bush_B.prefab
+2944	0.003	.prefab	Assets/Environment/Prefabs/EnvMdrMD_Garden_A_Bush_A.prefab
+2942	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Barrel_A_Open.prefab
+2942	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_Barrel_A_Back.prefab
+2941	0.003	.prefab	Assets/Environment/Prefabs/EnvObjMD_FoliagePlant_A.prefab
+2938	0.003	.prefab	Assets/Environment/Prefabs/ObjMD_Tree_Plain_A.prefab
+2934	0.003	.prefab	Assets/Environment/Prefabs/SM_floor01 (1).prefab
+2934	0.003	.prefab	Assets/Environment/Prefabs/SM_Signboard04.prefab
+2934	0.003	.prefab	Assets/Environment/Prefabs/SM_Signboard03.prefab
+2934	0.003	.prefab	Assets/Environment/Prefabs/SM_Signboard02.prefab
+2934	0.003	.prefab	Assets/Environment/Prefabs/SM_Signboard01.prefab
+2934	0.003	.prefab	Assets/Environment/Prefabs/ObjMD_Bridge_C.prefab
+2933	0.003	.prefab	Assets/Environment/Prefabs/SM_zhuzi01 (1).prefab
+2932	0.003	.prefab	Assets/Environment/Prefabs/ObjMD_Boat_A.prefab
+2931	0.003	.prefab	Assets/Environment/Prefabs/ObjMD_Box_D.prefab
+2931	0.003	.prefab	Assets/Environment/Prefabs/ObjMD_Box_B.prefab
+2930	0.003	.prefab	Assets/Environment/Prefabs/SM_light04.prefab
+2930	0.003	.prefab	Assets/Environment/Prefabs/SM_light03.prefab
+2930	0.003	.prefab	Assets/Environment/Prefabs/SM_light02.prefab
+2930	0.003	.prefab	Assets/Environment/Prefabs/ObjMD_Box_A.prefab
+2929	0.003	.prefab	Assets/Environment/Prefabs/SM_light01.prefab
+2929	0.003	.prefab	Assets/Environment/Prefabs/SM_Wall03.prefab
+2929	0.003	.prefab	Assets/Environment/Prefabs/SM_Wall01.prefab
+2929	0.003	.prefab	Assets/Environment/Prefabs/SM_Door01.prefab
+2928	0.003	.prefab	Assets/Environment/Prefabs/SM_wall02.prefab
+2908	0.003	.cs	Assets/Scripts/Game/Audio/Editor/AudioSystemSetupMenu.cs
+2898	0.003	.anim	Assets/Animation/Ally/Garrick/Battle/Garrick-battle-win.anim
+2890	0.003	.cs	Assets/Scripts/UI/Equipment/EquipmentService.cs
+2889	0.003	.mat	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+2868	0.003	.tga	Assets/Environment/Textures/EnvObjTX_Lamp_A_cl.tga
+2843	0.003	.cginc	Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+2725	0.003	.asset	Assets/Game Data/Dialogue/Dialogue_Demo_ElderGreeting.asset
+2661	0.003	.cs	Assets/Scripts/Game/Flag/GameFlagManager.cs
+2600	0.002	.cs	Assets/Scripts/Battle/Core/Systems/BattleTargeting.cs
+2546	0.002	.cs	Assets/Scripts/Battle/Runtime/Components/BattleFieldLayout.cs
+2543	0.002	.cs	Assets/Scripts/Battle/Core/FSM/TurnEndState.cs
+2504	0.002	.cs	Assets/Scripts/Game/Audio/AudioSettingsPanelController.cs
+2499	0.002	.shader	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Shaders/CFX3 Multiply Color.shader
+2458	0.002	.tga	Assets/Environment/Textures/EnvObjTX_Lamp_A_no.tga
+2439	0.002	.cs	Assets/Scripts/Game/Character/CharacterDefinition_SO.cs
+2379	0.002	.cs	Assets/Scripts/Battle/Core/Commands/EscapeCommandHandler.cs
+2371	0.002	.anim	Assets/Animation/Ally/Garrick/Battle/Garrick-battle-idle-hp-normal.anim
+2366	0.002	.anim	Assets/Animation/Ally/Garrick/Battle/Garrick-battle-idle-hp-low.anim
+2360	0.002	.anim	Assets/Animation/Ally/Garrick/Field/Garrick-idle-right.anim
+2357	0.002	.anim	Assets/Animation/Ally/Garrick/Field/Garrick-idle-up.anim
+2357	0.002	.anim	Assets/Animation/Ally/Garrick/Field/Garrick-idle-down.anim
+2351	0.002	.anim	Assets/Animation/Ally/Garrick/Field/Garrick-idle-left.anim
+2337	0.002	.png	Assets/Plugins/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_dir.png
+2277	0.002	.cginc	Assets/TextMesh Pro/Shaders/TMPro.cginc
+2234	0.002	.uxml	Assets/Plugins/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uxml
+2189	0.002	.anim	Assets/Animation/NPC/Gareth/Gareth-battle-idle-hp-normal.anim
+2189	0.002	.anim	Assets/Animation/Ally/Garrick/Battle/Garrick-battle-useItem.anim
+2186	0.002	.anim	Assets/Animation/Ally/Garrick/Battle/Garrick-battle-dead.anim
+2180	0.002	.cs	Assets/Scripts/Game/Field Encounter/EncounterZone.cs
+2156	0.002	.cs	Assets/Scripts/Game/Scene Transition/ScenePartal.cs
+2128	0.002	.tga	Assets/Environment/Textures/ObjTX_Box_D_cl.tga
+2085	0.002	.cs	Assets/Scripts/Battle/Core/Commands/AttackSkillCommandHandler.cs
+2036	0.002	.cs	Assets/Scripts/Battle/Core/Models/BuffInstance.cs
+2024	0.002	.mat	Assets/PolygonSciFiWorlds/Prefabs/FX/Models/Materials/PolygonApocalypse_Texture_01_Cleaned.mat
+2024	0.002	.mat	Assets/PolygonSciFiWorlds/Models/Materials/PolygonConstruction_Texture_01_Atemp.mat
+2002	0.002	.mat	Assets/PolygonSciFiWorlds/Models/Materials/lambert1.mat
+1876	0.002	.cs	Assets/Scripts/Game/Audio/E_SoundId.cs
+1874	0.002	.cs	Assets/Scripts/UI/Field Panel/PanelController.cs
+1852	0.002	.cs	Assets/Scripts/Game/Scene Transition/SceneLoadRequest.cs
+1727	0.002	.overridecontroller	Assets/Animation/Ally/Garrick/Field/Garrick_Field.overrideController
+1711	0.002	.cs	Assets/Scripts/Battle/Core/Models/BattleCommandRequest.cs
+1707	0.002	.asset	Assets/Game Data/Character/Ally/Garrick.asset
+1684	0.002	.mat	Assets/Environment/Materials/ObjMD_Boat_A.mat
+1683	0.002	.asset	Assets/TextMesh Pro/Resources/TMP Settings.asset
+1670	0.002	.cs	Assets/Scripts/Battle/Core/FSM/PerformActionState.cs
+1664	0.002	.uss	Assets/Plugins/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.uss
+1649	0.002	.asset	Assets/Game Data/Character/Enemy/Field02/地穴虫.asset
+1592	0.002	.asset	Assets/Game Data/Skill/Skill Data/BaseAttack/BaseAttack_Spear.asset
+1583	0.002	.cs	Assets/Scripts/Battle/Core/Commands/ItemCommandHandler.cs
+1554	0.001	.overridecontroller	Assets/Animation/Ally/Garrick/Battle/Garrick-Battle.overrideController
+1458	0.001	.tga	Assets/Environment/Textures/EnvObjTX_Lamp_K_no.tga
+1447	0.001	.cs	Assets/Scripts/Game/Audio/AudioSettings.cs
+1436	0.001	.asset	Assets/Game Data/Character/Enemy/Field02/冰川海龙.asset
+1430	0.001	.asset	Assets/Game Data/Character/Enemy/Field03/萨赞托斯.asset
+1416	0.001	.asset	Assets/Game Data/Character/Enemy/Field03/西格纳.asset
+1361	0.001	.asset	Assets/Game Data/Character/Enemy/Field02/灵魂雄鹿.asset
+1353	0.001	.asset	Assets/Game Data/Character/Enemy/Field01/吞噬蛙.asset
+1337	0.001	.cs	Assets/Scripts/Battle/Core/Commands/BattleCommandHandlerBase.cs
+1281	0.001	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Scripts/CFX_LightIntensityFade.cs
+1265	0.001	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ShaderPostProcessor.cs
+1183	0.001	.asset	_bak_pipeline_switch/URP Settings/UniversalRenderPipelineGlobalSettings.asset
+1153	0.001	.asset	Assets/Game Data/Character/NPC/Gareth.asset
+1145	0.001	.tga	Assets/Environment/Textures/ObjTX_Box_D_no.tga
+1118	0.001	.cs	Assets/Scripts/Game/Audio/UIButtonSfx.cs
+1047	0.001	.cginc	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc
+1029	0.001	.png	Assets/Arts/Characters/NPC/Human01.png
+992	0.001	.cs	Assets/Scripts/Game/Interaction/InteractionEvent.cs
+984	0.001	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Translate.cs
+983	0.001	.cs	Assets/Scripts/Game/Dialogue/DialogueEvents.cs
+970	0.001	.cs	Assets/Scripts/Game/Path Action/ActionBase.cs
+901	0.001	.asmdef	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR Demo.asmdef
+864	0.001	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs
+835	0.001	.cs	Assets/Scripts/Battle/Core/Models/BattleTimelinePredictionNode.cs
+815	0.001	.cs	Assets/Plugins/M Studio/Colourful Hierarchy Category GameObject/Editor/ColorPalette.cs
+782	0.001	.shader	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Shaders/CFXM_MobileParticleAdd_Alpha8.shader
+779	0.001	.cs	Assets/Scripts/Game/Dialogue/Data/Speaker_SO.cs
+755	0.001	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/Assets/CFX_AutoStopLoopedEffect.cs
+753	0.001	.cs	Assets/Scripts/Game/Skill/SkillLogic_SO.cs
+691	0.001	.overridecontroller	Assets/Animation/Enemy/Field02/Ice Sea Dragon/Ice Sea Dragon-Battle.overrideController
+689	0.001	.overridecontroller	Assets/Animation/Enemy/Field01/Huge Chomper/Huge Chomper-Battle.overrideController
+688	0.001	.overridecontroller	Assets/Animation/Enemy/Field02/Spirit Stag/Spirit Stag-Battle.overrideController
+686	0.001	.overridecontroller	Assets/Animation/Enemy/Field02/Cave Worm/Cave Worm-Battle.overrideController
+685	0.001	.overridecontroller	Assets/Animation/Enemy/Field03/Sazantos/Sazantos-Battle.overrideController
+682	0.001	.overridecontroller	Assets/Animation/Enemy/Field03/Cygna/Cygna-Battle.overrideController
+681	0.001	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDirectionTranslate.cs
+618	0.001	.cs	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs
+614	0.001	.asset	Assets/Game Data/Dialogue/Speakers/Speaker_VillageElder.asset
+612	0.001	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_Translate.cs
+588	0.001	.asset	Assets/Game Data/Dialogue/Speakers/Speaker_Traveller.asset
+509	0.000	.overridecontroller	Assets/Animation/NPC/Gareth/Gareth-Battle.overrideController
+472	0.000	.cs	Assets/Scripts/MFrameWork/Singleton/Singleton.cs
+451	0.000	.cs	Assets/Scripts/Battle/Runtime/Services/BattleStarPayload.cs
+417	0.000	.cs	Assets/Scripts/Game/Inventory/ItemDefinition_SO.cs
+414	0.000	.cs	Assets/Scripts/Battle/Core/FSM/BattleState.cs
+406	0.000	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDir.cs
+390	0.000	.cs	Assets/Scripts/Battle/Core/Commands/DefendCommandHandler.cs
+377	0.000	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Scripts/CFX_AutoRotate.cs
+373	0.000	.asmdef	Assets/Plugins/JMO Assets/Welcome Screen/CFXR.WelcomeScreen.asmdef
+367	0.000	.cs	Assets/Plugins/JMO Assets 0/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RotateCamera.cs
+365	0.000	.asmdef	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef
+354	0.000	.cs	Assets/Scripts/Game/Scene Transition/SceneEvents.cs
+331	0.000	.cs	Assets/Scripts/Game/Audio/AudioEvents.cs
+316	0.000	.asmdef	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef
+305	0.000	.cs	Assets/Scripts/Menu/MenuEvent.cs
+267	0.000	.cs	Assets/Scripts/MFrameWork/Event/IEvent.cs
+259	0.000	.cs	Assets/Scripts/MFrameWork/Event/IEventReceiver.cs
+238	0.000	.cs	Assets/Scripts/UI/Field Panel/PanelEvents.cs
+220	0.000	.cs	Assets/Scripts/Game/Game Mode/GameModeChangedEvent.cs
+127	0.000	.cs	Assets/Scripts/Utility/GlobalUsing.cs
+36	0.000	.asmdef	Assets/Plugins/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef
+30	0.000	.asmdef	Assets/Plugins/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef
+17	0.000	.rsp	Assets/csc.rsp

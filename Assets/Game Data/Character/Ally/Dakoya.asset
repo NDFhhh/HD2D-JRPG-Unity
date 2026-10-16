@@ -37,7 +37,7 @@ MonoBehaviour:
   fieldAnimator: {fileID: 22100000, guid: 20e632e7b1b006f47875bc67374bbcdf, type: 2}
   battleAnimator: {fileID: 22100000, guid: fe821397d2a3acb44bb2ddc7d99c208a, type: 2}
   Job: 5
-  globalGrowthConfig_SO: {fileID: 11400000, guid: 9748ad3663f984547a76962a3dde3995,
+  globalGrowthConfig_SO: {fileID: 11400000, guid: 182c10d97549557498e8fb3acc515bfc,
     type: 2}
   growthProfile:
     HP: 0

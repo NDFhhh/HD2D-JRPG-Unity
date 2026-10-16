@@ -1,7 +1,7 @@
 # ===========================
 # Unity 生成的大文件 / 缓存
 # ===========================
-[Ll]ibrary/
+[Ll]ibrary*/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
@@ -58,3 +58,12 @@ Thumbs.db
 *.bak
 *.unity-bak
 Tools/MigrateToUnity/__pycache__/
+
+# ===========================
+# 管线切换（URP -> Built-in）备份，不进库
+# ===========================
+_bak_pipeline_switch/
+_bak_scene_del/
+_bak_env_materials/
+Tools/MigrateToUnity/_bak/
+Tools/MigrateToUnity/_pkg_backup/
