@@ -64,6 +64,20 @@ public class DialoguePanelController : DialoguePresenterBase, IPointerClickHandl
     private bool _optionsActive;
     private int _selectedOption = -1;
     private int _lastChoiceFrame = -1;
+
+    /// <summary>
+    /// 本次对话开启的帧号（-1 = 尚未开启）。用于吞掉「触发对话的那次按键」。
+    /// 见 <see cref="HandleAdvanceInput"/> 里的说明。
+    /// </summary>
+    private int _openedFrame = -1;
+
+    /// <summary>
+    /// 单帧最多推进的时长：钳住卡顿帧。面板激活、Canvas 重建、中文字体图集首次
+    /// 栅格化都会让某一帧的 unscaledDeltaTime 达到零点几秒，不钳制的话
+    /// 一帧就能把整句算完，看起来就是「第一句没有打字效果」。
+    /// </summary>
+    private const float MaxStepDelta = 1f / 20f;
+
     private TMP_FontAsset _font;
     private Vector2 _indicatorBasePos;
     private bool _indicatorBaseCaptured;
@@ -86,6 +100,10 @@ public class DialoguePanelController : DialoguePresenterBase, IPointerClickHandl
         gameObject.SetActive(true);
         EnsureInitialized();
         ResolveFont();
+
+        // 记下开启帧：触发对话的那次 Submit 会在同一帧被本面板的 Update 重复读到。
+        _openedFrame = Time.frameCount;
+
         return YarnTask.CompletedTask;
     }
 
@@ -512,7 +530,9 @@ public class DialoguePanelController : DialoguePresenterBase, IPointerClickHandl
                 continue;
             }
 
-            shown += Time.unscaledDeltaTime * charsPerSecond;
+            // 卡顿帧钳制：见 MaxStepDelta 的说明。掉帧只会让逐字推进变慢一帧，
+            // 绝不会跳过整句。
+            shown += Mathf.Min(Time.unscaledDeltaTime, MaxStepDelta) * charsPerSecond;
             int count = Mathf.Min(total, Mathf.FloorToInt(shown));
             if (count > bodyText.maxVisibleCharacters)
             {
@@ -637,6 +657,16 @@ public class DialoguePanelController : DialoguePresenterBase, IPointerClickHandl
         if (Time.frameCount == _lastChoiceFrame)
             return;
         if (_optionsActive)
+            return;
+
+        // ⚠️ 吞掉「触发本次对话的那次输入」：
+        //   交互菜单里的「对话」是一个 uGUI Button，玩家用 Submit 确认它；
+        //   DialogueManager.Update 同时也在读同一个 UI.Submit.WasPressedThisFrame()。
+        //   于是同一次按键既点了按钮、又被当成「推进对话」，而此刻 TypeRoutine 已经
+        //   把 _isTyping 置 true → 直接走 RequestHurryUpLine() → 第一句瞬间打满。
+        //   这就是「每次对话的第一句没有打字效果」的真正原因。
+        //   开启帧 + 下一帧的推进一律丢弃（共约 33ms，不影响正常操作）。
+        if (_openedFrame >= 0 && Time.frameCount - _openedFrame <= 1)
             return;
 
         if (continueIndicator is not null)

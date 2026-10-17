@@ -11,29 +11,23 @@
 //   所以颜色写 6 位十六进制裸值，由 DialoguePanelController 补回 `#` 再交给 TMP。
 //   例：[color=E8C97A]晨风村[/color]
 
-title: Init
+title: 长老的问候
+tags: 
+position: -19,-21
 ---
-<<declare $met_elder = 0>>
-<<declare $elder_asked = 0>>
+村长·奥德尔: 哦……外乡来的旅人吗？欢迎来到[color=E8C97A]晨风村[/color]。
+村长·奥德尔: 最近山道上的魔物越来越猖狂，商队都不敢进村了。唉……
+-> 交给我吧。
+    旅人: 跟我说说具体情况。也许，我能帮上忙。
+    村长·奥德尔: 真的吗？！那就拜托你了！魔物的巢穴，就在村子北边的山道深处。
+-> 与我无关。
+    村长·奥德尔: 这样啊……也是，不该给旅人添麻烦。一路顺风，愿圣火指引你。
 ===
 
-title: ElderGreetin
-tags: 
-position: -273,-8
+title: 长老_任务完成
+position: -19,143
 ---
-<<if $met_elder == 1>>
-VillageElder: 又是你啊，旅人。山道上的魔物，就拜托你了。
-<<else>>
-VillageElder: 哦……外乡来的旅人吗？欢迎来到[color=E8C97A]晨风村[/color]。
-VillageElder: 最近山道上的魔物越来越猖狂，商队都不敢进村了。唉……
--> 交给我吧。
-    <<set $elder_asked = 1>>
-    Traveller: 跟我说说具体情况。也许，我能帮上忙。
-    VillageElder: 真的吗？！那就拜托你了！魔物的巢穴，就在村子北边的山道深处。
-    <<set $met_elder = 1>>
-    <<evt quest_elder_intro>>
--> 与我无关。
-    VillageElder: 这样啊……也是，不该给旅人添麻烦。一路顺风，愿圣火指引你。
-    <<set $met_elder = 1>>
-<<endif>>
+旅人: 山道上的魔物清完了。
+村长·奥德尔: 哦！你竟然真的……[color=E8C97A]圣火[/color]保佑。
+村长·奥德尔: 这些钱你收下，路上会用到。
 ===

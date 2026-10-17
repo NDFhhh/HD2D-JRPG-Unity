@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b8e3d0f2c5e4f9a0b1d6e7f8a9b0c12, type: 3}
-  m_Name: Speaker_Traveller
+  m_Name: "\u65C5\u4EBA"
   m_EditorClassIdentifier: 
-  Id: Traveller
+  Id: "\u65C5\u4EBA"
   SpeakerName: "\u65C5\u4EBA"
   NameColor: {r: 0.62, g: 0.8, b: 0.95, a: 1}
   Portrait: {fileID: 788871327, guid: 38e28a75e93a28845947248ad144070d, type: 3}

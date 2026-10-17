@@ -2,6 +2,7 @@ using MFramework.Event;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
 using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 using Yarn.Unity;
@@ -53,6 +54,13 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
     private GameFlagVariableStorage _storage;
     private string _currentNode;
     private bool _dialogueCompleteHooked;
+
+    /// <summary>
+    /// 本次对话的收尾是否已经跑过。收尾有两条通道（Yarn 的 onDialogueComplete 事件、
+    /// 以及 StartDialogueAsync 里 await 的 DialogueTask），必须只处理一次，
+    /// 否则会把「切回 Explore」执行两遍甚至和模式独占守卫互相抢。
+    /// </summary>
+    private bool _completionHandled;
 
     /// <summary>
     /// 本次对话是否由我们切换了游戏模式。
@@ -167,8 +175,12 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
 
         if (!_dialogueCompleteHooked)
         {
-            if (_runner.onDialogueComplete is not null)
-                _runner.onDialogueComplete.AddListener(HandleDialogueComplete);
+            // ⚠️ onDialogueComplete 是 UnityEvent 字段且**没有默认实例**（DialogueRunner.Awake
+            // 也不创建它）。DialogueRunner 在本工程是运行时 AddComponent 出来的，这个字段可能
+            // 直接是 null —— 一旦 null 就永远挂不上监听，「对话结束」收尾不会执行。
+            // 这里既补建实例，又在 StartDialogueAsync 里另走 DialogueTask 兜底，双通道 + 幂等。
+            _runner.onDialogueComplete ??= new UnityEvent();
+            _runner.onDialogueComplete.AddListener(HandleDialogueComplete);
             _dialogueCompleteHooked = true;
         }
 
@@ -239,6 +251,7 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
             return;
 
         _currentNode = nodeName;
+        _completionHandled = false;
 
         // 切到 UI 输入图：冻结玩家移动、激活 Submit/Cancel。
         // 战斗与暂停模式下不切换（战斗内对话不能打断战斗模式）。
@@ -261,15 +274,29 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
     /// Yarn 的 StartDialogue 是异步的（YarnTask），这里 fire-and-forget。
     /// 用 async void + try/catch 保证异常不会静默吞掉，失败时也走一遍收尾。
     /// </summary>
+    /// <remarks>
+    /// <para><b>关键：</b><c>StartDialogue</c> 在「对话刚开始」时就会返回（内部只是
+    /// SetNode + 一发 Continue），并不会等玩家看完。所以必须再
+    /// <c>await DialogueTask</c> —— 它在 Yarn 收尾阶段
+    /// （<c>dialogueCompletionSource.TrySetResult()</c>，此时所有 Presenter 的
+    /// <c>OnDialogueCompleteAsync</c> 都已执行完）才完成。</para>
+    /// <para>为什么不能只靠 <c>onDialogueComplete</c> 事件：见 BuildRunner 里的注释，
+    /// 那个 UnityEvent 在运行时 AddComponent 的场景下可能是 null。</para>
+    /// </remarks>
     private async void StartDialogueAsync(string nodeName)
     {
         try
         {
             await _runner.StartDialogue(nodeName);
+            await _runner.DialogueTask;
         }
         catch (System.Exception e)
         {
             Debug.LogError($"[DialogueManager] 播放对话 '{nodeName}' 失败：{e}");
+        }
+        finally
+        {
+            // 幂等：onDialogueComplete 那条通道若已经收过尾，这里会直接返回
             HandleDialogueComplete();
         }
     }
@@ -291,17 +318,28 @@ public class DialogueManager : Singleton<DialogueManager>, IEventReceiver<GameMo
 
     private void HandleDialogueComplete()
     {
+        if (_completionHandled)
+            return;
+        _completionHandled = true;
+
         EventBus.Publish(new DialogueEndedEvent(_currentNode));
         _currentNode = null;
 
-        // 对话期间是我们切到 InteractionMenu 的，结束后恢复漫游
-        if (_ownsModeSwitch &&
+        // ⚠️ 顺序不能反：先把「本次对话独占模式」的标志清掉，再请求切回 Explore。
+        //   RequestChangeMode 是**同步**的（内部 EventBus.Publish 同步派发），
+        //   OnEvent(GameModeChangedEvent) 会在本次调用栈里立刻执行到。若此时
+        //   _ownsModeSwitch 仍为 true、而 Yarn 还没把 IsDialogueRunning 置 false，
+        //   守卫就会把刚切好的 Explore 又抢回 InteractionMenu
+        //   → 输入图停在 UI、玩家角色永久不能动。
+        bool ownedModeSwitch = _ownsModeSwitch;
+        _ownsModeSwitch = false;
+
+        if (ownedModeSwitch &&
             GameModeManager.Instance is not null &&
             GameModeManager.Instance.CurrentGameMode == E_GameMode.InteractionMenu)
         {
             GameModeManager.Instance.RequestChangeMode(E_GameMode.Explore);
         }
-        _ownsModeSwitch = false;
     }
 
     #endregion

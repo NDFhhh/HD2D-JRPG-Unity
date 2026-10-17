@@ -39,7 +39,6 @@ public class MusicPlayer : MonoBehaviour
     {
         if (_library == null || !_library.TryGetCue(bgmId, out var cue))
         {
-            Debug.LogWarning($"[Audio] SoundLibrary 中未配置 BGM: {bgmId}");
             return;
         }
 
